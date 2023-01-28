@@ -1,17 +1,27 @@
 ---
 layout: post
 title:  "Driver Huawei 3G Dongle para OSX Ventura (MAC)"
-date:   2023-01-25 19:45:47 +0100
+date:   2023-01-27 19:45:47 +0100
 categories: IT OSX 
 ---
+
 Hoy me dispuse a instalar el módem 3G de Huawei, modelo HXXXX. 
 
 Desde hace mucho tiempo que he tenido problemas con las nuevas versiones de OSX, el sistema operativo de Apple para sus computadores. Esta vez no fué la exepción. 
 
-Links
+saludos, **bochinche** 
+
+---
+
+## Enlaces / Referencias externas
 - [Drivers Huawei](https://consumer.huawei.com/en/support/content/en-us15773565/)
 - [Blog Decovar](https://decovar.dev/blog/2019/04/17/huawei-e3372-macos/#about-the-modem): Contiene las instrucciones que seguí para lograr instalar el módem. 
 - [Link alternativo de decovar](https://github.com/retifrav/retifrav.github.io/issues/1) 
 - [Link con instrucciones después de haber instalado el driver](https://support.speedify.com/article/448-connect-a-3g-4g-dongle-mac) 
 
-best, bochinche
+## Enlaces internos
+- [Huawei Driver Installation Guide for MAC10.15 OSX HiLink 2.0](/assets/files/Driver%20Installation%20Guide%20for%20MAC10.15%20OS(HiLink)_2.0.pdf)
+- [Huawei Driver Installation Guide for MAC10.15 OSX Stick 2.0](/assets/files/Driver%20Installation%20Guide%20for%20MAC10.15%20OS(Stick)_2.0.pdf)
+- [Mobile Driver](/assets/files/Mobile%20Driver.pkg.zip)
+- [Mobile Connect Driver](/assets/files/MobileConnectDriver.pkg.zip)
+
