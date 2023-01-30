@@ -2,7 +2,13 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2022-12-31 17:45:47 +0100
-categories: jekyll
+categories: blog
+---
+I have been blogging about IT and other topics since 2007, and I will be migrating my old WordPress-based posts to Jekyll. 
+
+This is the original jekyll first post, which uses a static content management system, with a very simple template: minimal. 
+
+I started blogging again at the end of 2022 when I decided to start sharing information, blogs, etc. with the world. 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
