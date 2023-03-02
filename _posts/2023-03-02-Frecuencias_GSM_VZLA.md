@@ -11,7 +11,6 @@ Cada uno de estos emplea bandas y frecuencias distintas para 2G, 3G y 4G, y es n
 
 En mi caso, dejé de tener contrato con Movilnet hace mucho tiempo. De modo que las únicas operadoras digitales que uso son digitel y movistar.
 
-![screenshot1](/assets/images/streaming_vlc1.png)
 ![RedesGSMenVenezuela](/assets/images/gsm_venezuela.png)
 
 saludos, **bochinche** 
