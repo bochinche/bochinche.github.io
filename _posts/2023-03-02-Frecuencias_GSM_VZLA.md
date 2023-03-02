@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Frecuencias de las redes GSM en Venezuela"
-date:   2023-03-02 19:45:47 +0100
+date:   2023-03-02 07:45:47 +0100
 categories: IT Venezuela 
 ---
 
