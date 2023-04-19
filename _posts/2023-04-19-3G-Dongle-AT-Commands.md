@@ -10,6 +10,7 @@ categories: IT linux huawei dongle
 - [List of AT Commands for Huawei USB Dongle](#list-of-at-commands-for-huawei-usb-dongle)
 - [AT Commands](#at-commands)
   - [Signal Quality Report](#signal-quality-report)
+  - [AT Commands for testing call](#Making a Call using AT Commands)
 - [Links](#links)
 
 
@@ -40,20 +41,26 @@ categories: IT linux huawei dongle
  ## Signal Quality Report 
 Indicate the received signal strength indicator (RSSI) and the channel bit error rate (BER). For example the first received number (23) means the RSSI is -67 dBm and the second number (99) shows the channel bit error rate in percent. 0: Less than or equal to -113dBm  1: -111dBm 2…30: -109… -53dBm 31: Greater than or equal to -51dBm 99: Not known (As you see in the response from the module the status for TELUS is 2 which means it is the current operator.)
 
+# Making a Call using AT Commands
+1. AT^DDSETEX=2, which you need to issue everytime you call (because, by default, it routes the PCM data to the oblivion or the non-working mysterious PCVOICE port, dunno);
+2. ATD[phonenumber]; (the semicolon is very important, trust me… Otherwise you get NO CARRIER answers)
+3. AT+CHUP to hang up on the call.
+
 # Links
-|                  Topic                  |                                     Link                                     |
-| :-------------------------------------: | :--------------------------------------------------------------------------: |
-|                  Speed                  |        https://linuxd.wordpress.com/2008/07/03/huawei-hspda-3g-modem/        |
-|                    "                    | https://wiki.archlinux.org/title/Mobile_broadband_modem#Low_connection_speed |
-|                    "                    |              https://bbs.archlinux.org/viewtopic.php?id=111513               |
-|                Venezuela                |      https://lists.ubuntu.com/archives/ubuntu-ve/2009-March/003814.html      |
-|                Venezuela                |      https://lists.ubuntu.com/archives/ubuntu-ve/2009-March/003814.html      |
-|           General Information           |     https://bipartisanpolicy.org/blog/cellular-data-and-digital-divide/      |
-|   The Raspberry Pi Goes Mobile  |          https://www.sbprojects.net/projects/raspberrypi/mobile.php          |
-| Chapter 2: LTE-M Modem and AT Commands |        https://pressbooks.bccampus.ca/cellulariot/chapter/chapter-2/         |
-| On Huawei 3G dongles voice capabilities |                  https://wiki.tadeu.org/misc:huaweii-voice                   |
-| Using AT Commands with the Huawei E303  |     https://www.hologram.io/blog/using-at-commands-with-the-huawei-e303/     |
-| AT Command Tester | https://m2msupport.net/m2msupport/athsdpa-athspa-athsupa-enabledisable-hsdpahspahsupa-support/ |
+
+|                  Topic                  |                                              Link                                              |
+| :-------------------------------------: | :--------------------------------------------------------------------------------------------: |
+|                  Speed                  |                 https://linuxd.wordpress.com/2008/07/03/huawei-hspda-3g-modem/                 |
+|                    "                    |          https://wiki.archlinux.org/title/Mobile_broadband_modem#Low_connection_speed          |
+|                    "                    |                       https://bbs.archlinux.org/viewtopic.php?id=111513                        |
+|                Venezuela                |               https://lists.ubuntu.com/archives/ubuntu-ve/2009-March/003814.html               |
+|                Venezuela                |               https://lists.ubuntu.com/archives/ubuntu-ve/2009-March/003814.html               |
+|           General Information           |              https://bipartisanpolicy.org/blog/cellular-data-and-digital-divide/               |
+|      The Raspberry Pi Goes Mobile       |                   https://www.sbprojects.net/projects/raspberrypi/mobile.php                   |
+| Chapter 2: LTE-M Modem and AT Commands  |                 https://pressbooks.bccampus.ca/cellulariot/chapter/chapter-2/                  |
+| On Huawei 3G dongles voice capabilities |                           https://wiki.tadeu.org/misc:huaweii-voice                            |
+| Using AT Commands with the Huawei E303  |              https://www.hologram.io/blog/using-at-commands-with-the-huawei-e303/              |
+|            AT Command Tester            | https://m2msupport.net/m2msupport/athsdpa-athspa-athsupa-enabledisable-hsdpahspahsupa-support/ |
 
 
 # Mirrors

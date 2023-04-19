@@ -7,21 +7,20 @@ categories: IT linux huawei dongle
 
 This is Google's cache of [https://wiki.tadeu.org/misc:huaweii-voice](https://wiki.tadeu.org/misc:huaweii-voice). It is a snapshot of the page as it appeared on 4 Apr 2023 23:43:48 GMT. The [current page](https://wiki.tadeu.org/misc:huaweii-voice) could have changed in the meantime. [Learn more.]
 
-### Table of Contents
+# Table of Contents
 
-*   [On Huawei 3G dongles voice capabilities](#on_huawei_3g_dongles_voice_capabilities)
+*   [On Huawei 3G dongles voice capabilities](#On Huawei 3G dongles voice capabilities)
     
-    *   [On locked/unlocked voice function](#on_locked_unlocked_voice_function)
+    *   [On locked/unlocked voice function](#On locked/unlocked voice function)
         
-    *   [How it works](#how_it_works)
+    *   [How it works](#How it works)
         
-    *   [In practice](#in_practice)
+    *   [In practice](#In practice)
         
-    *   [References](#references)
+    *   [References](#References)
         
 
-On Huawei 3G dongles voice capabilities
-=======================================
+# On Huawei 3G dongles voice capabilities
 
 Maybe I'm coming late to the party, but I do have a 3G UMTS modem from Huawei – the E303C. It has a lot in common with other devices, though, like E173 or E220. It's worth mentioning that's the barebones version, so there's no HiLink non-sense. It comunicates through serial ports, not per via RNDIS (_grosso modo_, emulated ethernet). Works fine both on Linux or Windows and you don't really need to install the Huawei Partner thing. But I won't go into detail on that, now. Suffice to know that once it's exposing it's serial ports to the host, the system can comunicate with it as it were an old fashioned hardware (no WinModems here!) dialup modem (which it indeed is, sort of).
 
@@ -29,17 +28,13 @@ But there's a nifty feature to the Partner software: a dialer. That is: if you d
 
 Okay, so you may want to use voice on Linux **and** without using the Partner software (whose Linux version seems to be crappy). Well, you're out of luck if you want an out of the box solution. But there's an way. You can pretty much do it using a couple of UNIX and AT ([Hayes](https://en.wikipedia.org/wiki/wp%3EHayes_command_set "https://en.wikipedia.org/wiki/wp>Hayes_command_set")) commands.
 
-On locked/unlocked voice function
----------------------------------
+## On locked/unlocked voice function
 
 I don't remember how to check for it, but there's a custom command for querying voice stuff which works on most 3G dongles: `AT^CVOICE?`. Under normal circunstances, this command should give you audio format information. If it does not, either your 3G dongle doesn't support it at all or it's simply unlocked.
 
 Unlocking it is a though proccess. And, the last time I checked, you had to pay some shaddy Indians to be able to do it using their software. I had to do it because I did some dumb stuff I won't go into detail here, but had something to do with firmware _quid-pro-quos_. So, please avoide messing with firmware unless you absuletly know what you are doing.
 
-How it works
-------------
-
-**tl;dr:** _see the next sessions for practical usage_
+## How it works
 
 Well, there were, in fact, a way to use the voice function under Linux. But it was cumbersome. Asterisk had a module called “chan\_dongle” which allowed those dongles to be used as trunk lines. If you just want to place a goddam call on your dongle, it's way to much work, I think. But it was the very existence of this module which proved to me it was possible to get the voice data without needing aditional crapware.
 
@@ -60,10 +55,9 @@ I won't go into details over this, however. I can think of some reasons for it t
 
 There's also a fourth port, mentioned in this document \[idem, ibid\] only once: PCVOICE. This is a hell of an unknown interface. From what I could tell, has something to do with HiLink devices, but doesn't apply to us. Even on Windows I saw the Partner Software send an `AT^DDSETEX=2` when dialing. So, the DIAG port is, as far we know, the most important piece to this puzzle.
 
-**tl;dr:** _The audio PCM data goes through the DIAG port and you need to do is pipe it out through aplay as well as pipe it in via arecord, for the microphone to work_.
+**Note** _The audio PCM data goes through the DIAG port and you need to do is pipe it out through aplay as well as pipe it in via arecord, for the microphone to work_.
 
-In practice
------------
+## In practice
 
 Now, it's time to get practical. I won't absolutely dive into details here because the main reason I'm writing this is for myself, in the future. But, if you're not me, doesn't hurt to Google it up or read some of the references I left down below.
 
@@ -96,10 +90,7 @@ Then, you come back to the MODEM port console. The important commands are:
 *   `AT+CHUP` to hang up on the call.
     
 
-![FIXME](/lib/images/smileys/fixme.gif) I'll get this tutorial done later, because my aunt is calling me to help her with the groceries.
-
-References
-----------
+## References
 
 *   \[1\] [Hayes Command Set on Wikipedia](https://en.wikipedia.org/wiki/Hayes_Command_Set "https://en.wikipedia.org/wiki/Hayes_Command_Set")
     
@@ -108,21 +99,3 @@ References
 *   \[3\] [https://askubuntu.com/questions/464661/way-to-call-through-huawei-modem-in-14-04-e303](https://askubuntu.com/questions/464661/way-to-call-through-huawei-modem-in-14-04-e303 "https://askubuntu.com/questions/464661/way-to-call-through-huawei-modem-in-14-04-e303")
     
 *   \[4\] [https://stackoverflow.com/questions/8367864/how-make-use-of-the-voice-api-to-make-calls-using-huawei-3g-modems](https://stackoverflow.com/questions/8367864/how-make-use-of-the-voice-api-to-make-calls-using-huawei-3g-modems "https://stackoverflow.com/questions/8367864/how-make-use-of-the-voice-api-to-make-calls-using-huawei-3g-modems")
-    
-
-misc/huaweii-voice.txt · Last modified: 2020/07/11 22:26 by prppedro
-
-* * *
-
-### Page Tools
-
-*   [Show pagesource](/misc:huaweii-voice?do=edit "Show pagesource [v]")
-*   [Old revisions](/misc:huaweii-voice?do=revisions "Old revisions [o]")
-*   [Backlinks](/misc:huaweii-voice?do=backlink "Backlinks")
-*   [Back to top](#dokuwiki__top "Back to top [t]")
-
-Except where otherwise noted, content on this wiki is licensed under the following license: [GNU Free Documentation License 1.3](https://www.gnu.org/licenses/fdl-1.3.html)
-
-[![GNU Free Documentation License 1.3](/lib/images/license/button/gnufdl.png)](https://www.gnu.org/licenses/fdl-1.3.html) [![Donate](/lib/tpl/tadeu/images/button-donate.gif)](https://www.dokuwiki.org/donate "Donate") [![Powered by PHP](/lib/tpl/tadeu/images/button-php.gif)](https://php.net "Powered by PHP") [![Valid HTML5](/lib/tpl/tadeu/images/button-html5.png)](//validator.w3.org/check/referer "Valid HTML5") [![Valid CSS](/lib/tpl/tadeu/images/button-css.png)](//jigsaw.w3.org/css-validator/check/referer?profile=css3 "Valid CSS") [![Driven by DokuWiki](/lib/tpl/tadeu/images/button-dw.png)](https://dokuwiki.org/ "Driven by DokuWiki")
-
-![](/lib/exe/taskrunner.php?id=misc%3Ahuaweii-voice&1680651844)
