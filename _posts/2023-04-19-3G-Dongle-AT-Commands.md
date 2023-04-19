@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Huawei 3G Dongle AT Commands"
-date:   2024-04-19 07:45:47 +0100
+date:   2024-04-18 07:45:47 +0100
 categories: IT linux huawei dongle  
 ---
 

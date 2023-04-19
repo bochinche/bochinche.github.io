@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mirror: On Huawei 3G dongles voice capabilities"
-date:   2024-04-19 08:45:47 +0100
+date:   2024-04-18 08:45:47 +0100
 categories: IT linux huawei dongle  
 ---
 
