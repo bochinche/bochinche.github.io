@@ -12,15 +12,15 @@ This is Google's cache of [https://wiki.tadeu.org/misc:huaweii-voice](https://wi
 
 # Table of Contents
 
-*   [On Huawei 3G dongles voice capabilities](#On Huawei 3G dongles voice capabilities)
+*   [On Huawei 3G dongles voice capabilities](#on_huawei_3g_dongles_voice_capabilities)
     
-    *   [On locked/unlocked voice function](#On locked/unlocked voice function)
+    *   [On locked/unlocked voice function](#on_locked_and_unlocked_voice_function)
         
-    *   [How it works](#How it works)
+    *   [How it works](#how_it_works)
         
-    *   [In practice](#In practice)
+    *   [In practice](#in_practice)
         
-    *   [References](#References)
+    *   [References](#references)
         
 
 # On Huawei 3G dongles voice capabilities
@@ -31,7 +31,7 @@ But there's a nifty feature to the Partner software: a dialer. That is: if you d
 
 Okay, so you may want to use voice on Linux **and** without using the Partner software (whose Linux version seems to be crappy). Well, you're out of luck if you want an out of the box solution. But there's an way. You can pretty much do it using a couple of UNIX and AT ([Hayes](https://en.wikipedia.org/wiki/wp%3EHayes_command_set "https://en.wikipedia.org/wiki/wp>Hayes_command_set")) commands.
 
-## On locked/unlocked voice function
+## On locked and unlocked voice function
 
 I don't remember how to check for it, but there's a custom command for querying voice stuff which works on most 3G dongles: `AT^CVOICE?`. Under normal circunstances, this command should give you audio format information. If it does not, either your 3G dongle doesn't support it at all or it's simply unlocked.
 
