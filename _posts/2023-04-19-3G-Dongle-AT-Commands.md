@@ -10,11 +10,12 @@ categories: IT linux huawei dongle
 - [List of AT Commands for Huawei USB Dongle](#list-of-at-commands-for-huawei-usb-dongle)
 - [AT Commands](#at-commands)
   - [Signal Quality Report](#signal-quality-report)
-  - [Making a Call using AT Commands](#Making-a-Call-using-AT-Commands)
+  - [Making a Call using AT Commands](#making-a-call-using-at-commands)
 - [External Links](#links)
 - [Other Mirrors](#mirrors)
 
 # AT Commands
+
 |         AT Command          |                                  Description                                   |
 | :-------------------------: | :----------------------------------------------------------------------------: |
 |          AT+CMEE=2          |            enable the extended error codes to get a verbose format             |
@@ -61,6 +62,7 @@ Indicate the received signal strength indicator (RSSI) and the channel bit error
 3. AT+CHUP to hang up on the call.
 
 # Links
+
 |                  Topic                  |                                              Link                                              |
 | :-------------------------------------: | :--------------------------------------------------------------------------------------------: |
 |                  Speed                  |                 https://linuxd.wordpress.com/2008/07/03/huawei-hspda-3g-modem/                 |
