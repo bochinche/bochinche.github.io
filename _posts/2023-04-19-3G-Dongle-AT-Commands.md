@@ -74,5 +74,7 @@ Indicate the received signal strength indicator (RSSI) and the channel bit error
 | On Huawei 3G dongles voice capabilities |                           https://wiki.tadeu.org/misc:huaweii-voice                            |
 | Using AT Commands with the Huawei E303  |              https://www.hologram.io/blog/using-at-commands-with-the-huawei-e303/              |
 |            AT Command Tester            | https://m2msupport.net/m2msupport/athsdpa-athspa-athsupa-enabledisable-hsdpahspahsupa-support/ |
+|          Usage of chan_dongle           |                     http://asterisk-service.com/en_US/page/chan-dongle-use                     |
 
 # Mirrors
+- work in progress

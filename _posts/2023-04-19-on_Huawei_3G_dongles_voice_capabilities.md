@@ -5,6 +5,9 @@ date:   2023-04-18 08:45:47 +0100
 categories: IT linux huawei dongle  
 ---
 
+**Note**: The original link of this article was not online, as I was looking for it. I did not find a copy in [archive.org](archive.org), thus I looked for it in google´s cache. 
+I have extracted the most important information 
+
 This is Google's cache of [https://wiki.tadeu.org/misc:huaweii-voice](https://wiki.tadeu.org/misc:huaweii-voice). It is a snapshot of the page as it appeared on 4 Apr 2023 23:43:48 GMT. The [current page](https://wiki.tadeu.org/misc:huaweii-voice) could have changed in the meantime. [Learn more.]
 
 # Table of Contents
@@ -99,3 +102,7 @@ Then, you come back to the MODEM port console. The important commands are:
 *   \[3\] [https://askubuntu.com/questions/464661/way-to-call-through-huawei-modem-in-14-04-e303](https://askubuntu.com/questions/464661/way-to-call-through-huawei-modem-in-14-04-e303 "https://askubuntu.com/questions/464661/way-to-call-through-huawei-modem-in-14-04-e303")
     
 *   \[4\] [https://stackoverflow.com/questions/8367864/how-make-use-of-the-voice-api-to-make-calls-using-huawei-3g-modems](https://stackoverflow.com/questions/8367864/how-make-use-of-the-voice-api-to-make-calls-using-huawei-3g-modems "https://stackoverflow.com/questions/8367864/how-make-use-of-the-voice-api-to-make-calls-using-huawei-3g-modems")
+
+## Links 
+
+* [Google Cache Mirror of original article](https://webcache.googleusercontent.com/search?q=cache:TUycxqDpFq8J:https://wiki.tadeu.org/misc:huaweii-voice&cd=1&hl=en&ct=clnk&gl=de)
