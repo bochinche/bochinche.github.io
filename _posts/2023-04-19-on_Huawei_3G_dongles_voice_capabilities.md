@@ -106,3 +106,5 @@ Then, you come back to the MODEM port console. The important commands are:
 ## Links 
 
 * [Google Cache Mirror of original article](https://webcache.googleusercontent.com/search?q=cache:TUycxqDpFq8J:https://wiki.tadeu.org/misc:huaweii-voice&cd=1&hl=en&ct=clnk&gl=de)
+* [How to unlock Huawei modems?](https://github.com/bg111/asterisk-chan-dongle/wiki/Preparation)
+* [Asterisk-dongle-setup](https://github.com/grwlf/asterisk-dongle-setup)
