@@ -15,7 +15,7 @@ Being a CLI freak, I try to keep things dumb and simple. Instead of using GUIs t
 
 To make ldapvi work with entic.net's free ldap services, you need to set some options:
 
-```
+```bash
 ldapvi \ 
 -D uid=<username>, ou=people, o=entic.net \ 
 -w YOURPASSWORD \ 
