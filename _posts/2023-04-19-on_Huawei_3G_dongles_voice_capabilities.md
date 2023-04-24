@@ -108,3 +108,5 @@ Then, you come back to the MODEM port console. The important commands are:
 * [Google Cache Mirror of original article](https://webcache.googleusercontent.com/search?q=cache:TUycxqDpFq8J:https://wiki.tadeu.org/misc:huaweii-voice&cd=1&hl=en&ct=clnk&gl=de)
 * [How to unlock Huawei modems?](https://github.com/bg111/asterisk-chan-dongle/wiki/Preparation)
 * [Asterisk-dongle-setup](https://github.com/grwlf/asterisk-dongle-setup)
+* [Download Mobile Partner for Windows 10, 8, 7, XP, Vista](https://www.huaweiflashfiles.com/p/download-mobile-partner-dashboard-all.html)
+* [Liberar Módem Huawei E1752 y usarlo con cualquier operador....](https://angelitodiaz.blogspot.com/2012/02/liberar-modem-huawei-e-1752-y-usarlo.html)
