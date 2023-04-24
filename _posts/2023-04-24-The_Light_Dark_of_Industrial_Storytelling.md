@@ -6,3 +6,6 @@ categories: management
 ---
 
 ![image](/assets/images/The_Light_Dark_of_Industrial_Storytelling.jpeg)
+
+
+Note: this image was provided to me per whatsapp. I do not hold the rights for this image. 
