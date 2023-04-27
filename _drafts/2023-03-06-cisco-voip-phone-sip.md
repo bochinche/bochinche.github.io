@@ -5,13 +5,6 @@ date:   2023-03-06 07:45:47 +0100
 categories: IT linux  
 ---
 
----
-layout: post
-title:  "Mirror: On Huawei 3G dongles voice capabilities"
-date:   2023-04-18 08:45:47 +0100
-categories: IT linux huawei dongle  
----
-
 Good business IP phones usually come with many function keys, making our operation intuitive and easy to understand. That's why Cisco phones are popular among us. For example, I can quickly select the phone line to make outgoing calls using line keys. Also, the features for call hold, park, and transfer can be used without having to navigate through menus, and I am suitable for HD voice calls using the G.722 audio codec.
 
 Even Cisco's former top model CP-7975G, which used to cost over 500 euros when new, is now available as a used device for 60 to 120 euros. However, almost all Cisco business phones come pre-installed with the Skinny Client Control Protocol (SCCP) only. To use me with home routers like the Fritzbox, you need to install a SIP-compatible firmware. This requires a DHCP server that convinces me to download the appropriate firmware from a TFTP server on the LAN.
