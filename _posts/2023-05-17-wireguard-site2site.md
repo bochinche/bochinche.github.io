@@ -22,7 +22,7 @@ wg genkey | sudo tee /etc/wireguard/wgB.key
 sudo cat /etc/wireguard/wgB.key | wg pubkey | sudo tee /etc/wireguard/wgB.pub
 ```
 
-2. Update Configuration Files:
+2. Create & Update Configuration Files:
 Edit the following configuration files, replacing the placeholders with your network topology and generated keys.
 
 Linux Server Configuration (alpha site):
