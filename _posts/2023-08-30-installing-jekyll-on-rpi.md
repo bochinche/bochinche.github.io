@@ -47,3 +47,9 @@ For more detailed instructions and troubleshooting tips, you can refer to the [R
 ## Conclusion
 
 Setting up Jekyll on your Raspberry Pi opens up a world of possibilities for streamlined local web development. With a few simple commands, you can have Jekyll up and running, allowing you to design, test, and perfect your website right on your Raspberry Pi.
+
+## Additional steps
+```bash
+bundle config set --local path '$HOME/.gem'
+bundle install
+```
