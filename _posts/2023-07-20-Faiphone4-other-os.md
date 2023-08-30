@@ -123,4 +123,15 @@ If you wish to revert to the original FairPhone OS:
 
 5. Your Fairphone will reboot with the original FairPhone OS installed.
 
-That's it! You've successfully installed CalyxOS, eOS, and the original FairPhone OS on your Fairphone 4. Remember that flashing custom ROMs and unlocking the bootloader can void your warranty, so proceed with caution and make sure you understand the risks involved. Enjoy exploring these different operating systems on your Fairphone!
+That's it! You've successfully installed CalyxOS, eOS, and the original FairPhone OS on your Fairphone 4. Remember that flashing custom ROMs and unlocking the bootloader can void your warranty, so proceed with caution and make sure you understand the risks involved. Enjoy exploring these different operating systems on your Fairphonad!
+
+### Links 
+
+- https://antoineggg.medium.com/installing-e-os-on-fairphone-4-6d7dfb208d94
+- https://community.e.foundation/t/install-e-on-fp4-on-mac/38591/7
+
+- https://developer.android.com/tools/releases/platform-tools
+- https://support.fairphone.com/hc/en-us/articles/10492476238865
+- https://doc.e.foundation/pages/install_easy_installer/win_fp4
+- https://doc.e.foundation/devices/FP4/install
+- https://doc.e.foundation/build-status
