@@ -3,33 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Source IP</title>
+  <title>Get Source IP Info</title>
 </head>
 <body>
 
 <script>
-  // Function to fetch the IP address using ipinfo.io
-  function getIPAddress() {
+  // Function to fetch IP information using ipinfo.io
+  function getIPInfo() {
     // Make a GET request to the ipinfo.io API
     fetch('https://ipinfo.io/json')
       .then(response => response.json())
       .then(data => {
-        // Extract and display the IP address
+        // Extract and display IP information
         const ipAddress = data.ip;
+        const city = data.city;
+        const region = data.region;
+        const country = data.country;
+        const location = data.loc;
+
+        // Display the information
         document.getElementById('ipAddress').innerText = `Your IP Address: ${ipAddress}`;
+        document.getElementById('city').innerText = `City: ${city}`;
+        document.getElementById('region').innerText = `Region: ${region}`;
+        document.getElementById('country').innerText = `Country: ${country}`;
+        document.getElementById('location').innerText = `Location: ${location}`;
       })
       .catch(error => {
-        console.error('Error fetching IP address:', error);
-        document.getElementById('ipAddress').innerText = 'Error fetching IP address';
+        console.error('Error fetching IP information:', error);
+        document.getElementById('ipAddress').innerText = 'Error fetching IP information';
       });
   }
 
   // Call the function when the page is loaded
-  window.onload = getIPAddress;
+  window.onload = getIPInfo;
 </script>
 
-<!-- Display the IP address -->
-<p id="ipAddress">Fetching your IP address...</p>
+<!-- Display IP information -->
+<p id="ipAddress">Fetching IP information...</p>
+<p id="city"></p>
+<p id="region"></p>
+<p id="country"></p>
+<p id="location"></p>
 
 </body>
 </html>
