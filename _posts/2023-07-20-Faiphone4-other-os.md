@@ -127,11 +127,10 @@ That's it! You've successfully installed CalyxOS, eOS, and the original FairPhon
 
 ### Links 
 
-- https://antoineggg.medium.com/installing-e-os-on-fairphone-4-6d7dfb208d94
-- https://community.e.foundation/t/install-e-on-fp4-on-mac/38591/7
-
-- https://developer.android.com/tools/releases/platform-tools
-- https://support.fairphone.com/hc/en-us/articles/10492476238865
-- https://doc.e.foundation/pages/install_easy_installer/win_fp4
-- https://doc.e.foundation/devices/FP4/install
-- https://doc.e.foundation/build-status
+- <https://antoineggg.medium.com/installing-e-os-on-fairphone-4-6d7dfb208d94>
+- <https://community.e.foundation/t/install-e-on-fp4-on-mac/38591/7>
+- <https://developer.android.com/tools/releases/platform-tools>
+- <https://support.fairphone.com/hc/en-us/articles/10492476238865>
+- <https://doc.e.foundation/pages/install_easy_installer/win_fp4>
+- <https://doc.e.foundation/devices/FP4/install>
+- <https://doc.e.foundation/build-status>
