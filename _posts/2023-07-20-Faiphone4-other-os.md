@@ -33,7 +33,7 @@ Before you proceed with the installation process, please ensure that you have ba
 
 7. In Terminal, enter the following command to unlock the bootloader using the unlock code you received:
 
-   ```
+   ```bash
    ./fastboot flashing unlock
    ```
 
@@ -41,7 +41,7 @@ Before you proceed with the installation process, please ensure that you have ba
 
 8. For additional security, you can also run the following command to lock the critical partitions after unlocking:
 
-   ```
+   ```bash
    ./fastboot flashing lock_critical
    ```
 
@@ -53,19 +53,19 @@ Before you proceed with the installation process, please ensure that you have ba
 
 3. Reboot your Fairphone into fastboot mode again:
 
-   ```
+   ```bash
    adb reboot bootloader
    ```
 
 4. Set the environment variable to include the path to the platform-tools:
 
-   ```
+   ```bash
    export PATH=/Users/YourUsername/Downloads/platform-tools/darwin/:$PATH
    ```
 
 5. Flash CalyxOS onto your Fairphone:
 
-   ```
+   ```bash
    fastboot flashall -w
    ```
 
@@ -79,19 +79,19 @@ Before you proceed with the installation process, please ensure that you have ba
 
 2. Connect your Fairphone to the computer in fastboot mode:
 
-   ```
+   ```bash
    adb reboot bootloader
    ```
 
 3. Set the environment variable again if needed:
 
-   ```
+   ```bash
    export PATH=/Users/YourUsername/Downloads/platform-tools/darwin/:$PATH
    ```
 
 4. Flash eOS onto your Fairphone:
 
-   ```
+   ```bash
    fastboot flashall -w
    ```
 
@@ -105,19 +105,19 @@ If you wish to revert to the original FairPhone OS:
 
 2. Connect your Fairphone to the computer in fastboot mode:
 
-   ```
+   ```bash
    adb reboot bootloader
    ```
 
 3. Set the environment variable again if needed:
 
-   ```
+   ```bash
    export PATH=/Users/YourUsername/Downloads/platform-tools/darwin/:$PATH
    ```
 
 4. Flash the original FairPhone OS factory image onto your Fairphone:
 
-   ```
+   ```bash
    fastboot flashall -w
    ```
 
