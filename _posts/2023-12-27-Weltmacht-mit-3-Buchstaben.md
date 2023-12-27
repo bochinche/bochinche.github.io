@@ -19,5 +19,5 @@ Esta tarjeta postal, alguna vez una fuente de empoderamiento inmediato, ahora se
 
 Al final, la tarjeta postal sirve como una afirmación constante de que todos poseemos la fuerza interna para dar forma a nuestro destino y navegar por las complejidades de la vida. Es un mensaje simple pero profundo que continúa inspirando, resonando con los capítulos en evolución de mi propia vida.
 
-![image](assets/images/Weltmacht_mit_3_Buchstaben.jpeg)
+![image](/assets/images/Weltmacht_mit_3_Buchstaben.jpeg)
 
