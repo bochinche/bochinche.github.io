@@ -10,5 +10,5 @@ categories: lego play
 
 | Model |           URL            |
 | :---: | :----------------------: |
-| 8720  | <assets/files/LEGO/8720> |
-| 8042  | <assets/files/LEGO/8042> |
+| 8720  | [](assets/files/LEGO/8720) |
+| 8042  | [](assets/files/LEGO/8042) |
