@@ -86,6 +86,17 @@ Para evitar la censura y acceder libremente a internet, las VPNs son herramienta
 | RiseUpVPN (registro necesario) | gratis |                   [Enlace](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981) + Perfil OpenVPN de RiseUp                   |                                 [Enlace](https://riseup.net/en/android)                                 |
 | ProtonVPN |   0$   |                                   [Enlace](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085)                                   |                     [Enlace](https://f-droid.org/en/packages/ch.protonvpn.android)                      |
 
+
+También puede interesarle otros servicios de VPN disponibles en la siguiente tabla. Por ejemplo, Tunnel Bear hizo recientemente un anuncio dirigido a los usuarios venezolanos. Aqui el [enlace](https://x.com/theTunnelBear/status/1821939428924780924)
+
+| VPN Provider |             URL             |                                Apple App Store                                 |                                Google Play Store                                |
+| :----------: | :-------------------------: | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| Tunnel Bear  | https://www.tunnelbear.com/ | [Enlace](https://apps.apple.com/us/app/tunnelbear-secure-vpn-wifi/id564842283) | [Enlace](https://play.google.com/store/apps/details?id=com.tunnelbear.android)  |
+|  Touch VPN   |  https://www.touchvpn.net/  |    [Enlace](https://apps.apple.com/us/app/touch-vpn-secure-hotspot-proxy/)     | [Enlace](https://play.google.com/store/apps/details?id=com.northghost.touchvpn) |
+|   Psiphon    |     https://psiphon.ca/     |          [Enlace](https://apps.apple.com/us/app/psiphon/id1276263909)          |      [Enlace](https://play.google.com/store/apps/details?id=com.psiphon3)       |
+|   Lantern    |     https://lantern.io/     |        [Enlace](https://apps.apple.com/ae/app/lantern-vpn/id1457872372)        | [Enlace](https://play.google.com/store/apps/details?id=org.getlantern.lantern)  |
+
+
 ## Recursos Adicionales
 
 - [Comparación entre Signal, Telegram y WhatsApp](https://clearvpn.com/blog/signal-vs-telegram-vs-whatsapp/)
