@@ -7,7 +7,7 @@ categories: internet venezuela bloqueo x twitter signal
 
 ## Resumen rápido (para quien no quiera leer mucho)!
 
-|  Función  |                                                                  iOS Apps (Apple)                                                                   |                                                                                                                                     Android Apps(google)                                                                                                                                     |
+|  Función  |                                                                iOS Apps (Apple)                                                                |                                                                                                                                   Android Apps(google)                                                                                                                                   |
 | :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Mesajería |                                  [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)                                  |                                                                                                    [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)                                                                                                    |
 |    VPN    | [Tor](https://apps.apple.com/us/app/onion-browser/id519296448), [ProtonVPN](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085) | [Tor](https://play.google.com/store/apps/details?id=org.torproject.torbrowser), [ProtonVPN](https://f-droid.org/en/packages/ch.protonvpn.android/), [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/), [RiseupVPN](https://f-droid.org/en/packages/se.leap.riseupvpn/) |
@@ -24,7 +24,7 @@ Diversas medidas que limitan la libre expresión han sido impuestas, generando p
 
 - **WhatsApp bajo la mira**: Nicolás Maduro ha instado a la población a dejar de usar WhatsApp, promoviendo en su lugar aplicaciones como Telegram y WeChat. [Ver anuncio](https://youtu.be/qO4FYZa-Fu4).
 
-- **Bloqueo de X (ex Twitter)**: NicolásMaduro anunció un bloqueo temporal de X, ex [Twitter](https://x.com/) por 10 días. Según el observatorio [Netblocks](https://netblocks.org/), este bloqueo ya es visible. [Más detalles](https://mastodon.social/@netblocks/112929340515361487).
+- **Bloqueo de X (ex Twitter)**: Nicolás Maduro anunció un bloqueo temporal de X, ex [Twitter](https://x.com/) por 10 días. Según el observatorio [Netblocks](https://netblocks.org/), este bloqueo ya es visible. [Más detalles](https://mastodon.social/@netblocks/112929340515361487).
 
 - **Signal también afectada**: Netblocks reporta que Signal, otra aplicación de mensajería, está siendo bloqueada en Venezuela. [Ver reporte](https://mastodon.social/@netblocks/112929340515361487).
 
@@ -36,7 +36,7 @@ Maduro ha promovido las aplicaciones **Telegram** y **WeChat**. Sin embargo, es 
 
 #### Telegram
 
-Aunque [Telegram](https://telegram.org/) es de origen ruso y permite chats encriptados, esta función no está activada por defecto. Además, aunque su código de cliente es de código abierto, el código de los servidores no lo es, lo que genera dudas sobre su seguridad.
+Aunque [Telegram](https://telegram.org/) es de origen ruso y permite chats encriptados, esta función no está activada por defecto. Además, aunque su código de cliente es de código abierto, el código de los servidores no lo es, lo que genera dudas sobre su seguridad. Por todo ello, se recomienda al público no utilizar esta aplicación para enviar mensajes que puedan estar sometidos al escrutinio de las fuerzas del orden. Sin embargo, Telegram tiene la funcionalidad de comunidades, gracias a la cual distintos medios de comunicación alternativos ofrecen información al público.
 
 #### WeChat
 
@@ -65,7 +65,7 @@ A continuación, una tabla comparativa entre Signal y Telegram:
 |               Plataformas disponibles               | iOS, Android, Versión de escritorio | iOS, Android, Versión de escritorio, Versión de navegador |
 | Llamadas de audio / videollamadas / mensajes de voz |                  X                  |                             X                             |
 |                       Grupos                        |                  X                  |                             X                             |
-|     Lectura automática de contactos telefónicos     |                  X                  |                             X                             |
+|     Lectura automática de contactos telefónicos     |                n.A.                 |                             X                             |
 |           Borrado automático de mensajes            |                  X                  |                             X                             |
 |        Usabilidad en múltiples dispositivos         |        hasta 5 dispositivos         |                         ilimitado                         |
 
