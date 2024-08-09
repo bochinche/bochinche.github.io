@@ -53,6 +53,8 @@ No es sencillo determinar cuál es la aplicación más segura, pero hay consider
 - **Threema** permite el uso anónimo, sin necesidad de proporcionar datos personales.
 - **Signal** también se centra en la seguridad, pero como servicio estadounidense, está sujeto al CLOUD Act, lo que podría implicar la revelación de información personal en los EEUU. 
 
+[Enlace](https://threema.ch/en/messenger-comparison) a la comparación entre Signal y Threema en inglés.
+
 A continuación, una tabla comparativa entre Signal y Telegram:
 
 |                       Función                       |               Signal                |                         Telegram                          |
