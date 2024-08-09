@@ -5,6 +5,13 @@ date:   2024-08-08 12:00:00 +0100
 categories: internet venezuela bloqueo x twitter signal
 ---
 
+## Resumen rápido (para quien no quiera leer mucho)!
+
+|  Función  | iOS (Apple) |        Android (google)        |
+| :-------: | :----: | :--------------------: |
+| Mesajería |   [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669) |  [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)            |
+|    VPN    |   [Tor](https://apps.apple.com/us/app/onion-browser/id519296448), [ProtonVPN](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085)   | [Tor](https://play.google.com/store/apps/details?id=org.torproject.torbrowser), [ProtonVPN](https://f-droid.org/en/packages/ch.protonvpn.android/), [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/), [RiseupVPN](https://f-droid.org/en/packages/se.leap.riseupvpn/) |
+
 ## Contexto
 
 Venezuela atraviesa tiempos complicados desde las elecciones presidenciales de 2024. En medio de la creciente censura y limitaciones al acceso a la información, es crucial entender cómo proteger nuestra capacidad de comunicarnos de manera segura y efectiva. 
@@ -68,11 +75,12 @@ Considerando la creciente censura, Signal emerge como la opción más viable par
 
 Para evitar la censura y acceder libremente a internet, las VPNs son herramientas esenciales. **Tor** ha sido una de las más importantes, especialmente para periodistas y defensores de derechos humanos. Aquí una tabla comparativa de algunas opciones disponibles:
 
-|  Nombre   | Status |                                 iOS (Apple)                                 |                                            Android (google)                                             |
-| :-------: | :----: | :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-|    Tor    | gratis |      [Enlace](https://apps.apple.com/us/app/onion-browser/id519296448)      | [Enlace](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&pcampaignid=web_share) |
-| Calyx VPN |  n.a.  |       [Enlace](https://apps.apple.com/us/app/calyx-vpn/id1539625817)        |                    [Enlace](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)                    |
-| ProtonVPN |   0$   | [Enlace](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085) |                     [Enlace](https://f-droid.org/en/packages/ch.protonvpn.android)                      |
+|  Nombre   | Status |                                                iOS (Apple)                                                 |                                            Android (google)                                             |
+| :-------: | :----: | :--------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+|    Tor    | gratis |                     [Enlace](https://apps.apple.com/us/app/onion-browser/id519296448)                      | [Enlace](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&pcampaignid=web_share) |
+| Calyx VPN | gratis |                       [Enlace](https://apps.apple.com/us/app/calyx-vpn/id1539625817)                       |                    [Enlace](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)                    |
+| RiseUpVPN | gratis | [Enlace](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981) + Perfil OpenVPN de RiseUp |                                 [Enlace](https://riseup.net/en/android)                                 |
+| ProtonVPN |   0$   |                [Enlace](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085)                 |                     [Enlace](https://f-droid.org/en/packages/ch.protonvpn.android)                      |
 
 ## Recursos Adicionales
 
