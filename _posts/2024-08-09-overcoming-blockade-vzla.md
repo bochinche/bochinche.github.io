@@ -7,7 +7,7 @@ categories: internet venezuela bloqueo x twitter signal
 
 ## Resumen rápido (para quien no quiera leer mucho)!
 
-|  Función  |                                                                  iOS (Apple)                                                                   |                                                                                                                                     Android (google)                                                                                                                                     |
+|  Función  |                                                                  iOS Apps (Apple)                                                                   |                                                                                                                                     Android Apps(google)                                                                                                                                     |
 | :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Mesajería |                                  [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)                                  |                                                                                                    [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)                                                                                                    |
 |    VPN    | [Tor](https://apps.apple.com/us/app/onion-browser/id519296448), [ProtonVPN](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085) | [Tor](https://play.google.com/store/apps/details?id=org.torproject.torbrowser), [ProtonVPN](https://f-droid.org/en/packages/ch.protonvpn.android/), [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/), [RiseupVPN](https://f-droid.org/en/packages/se.leap.riseupvpn/) |
@@ -24,7 +24,7 @@ Diversas medidas que limitan la libre expresión han sido impuestas, generando p
 
 - **WhatsApp bajo la mira**: Nicolás Maduro ha instado a la población a dejar de usar WhatsApp, promoviendo en su lugar aplicaciones como Telegram y WeChat. [Ver anuncio](https://youtu.be/qO4FYZa-Fu4).
 
-- **Bloqueo de X (ex Twitter)**: Maduro anunció un bloqueo temporal de X (Twitter) por 10 días. Según el observatorio #Netblocks, este bloqueo ya es visible. [Más detalles](https://mastodon.social/@netblocks/112929340515361487).
+- **Bloqueo de X (ex Twitter)**: NicolásMaduro anunció un bloqueo temporal de X, ex [Twitter](https://x.com/) por 10 días. Según el observatorio [Netblocks](https://netblocks.org/), este bloqueo ya es visible. [Más detalles](https://mastodon.social/@netblocks/112929340515361487).
 
 - **Signal también afectada**: Netblocks reporta que Signal, otra aplicación de mensajería, está siendo bloqueada en Venezuela. [Ver reporte](https://mastodon.social/@netblocks/112929340515361487).
 
@@ -36,11 +36,11 @@ Maduro ha promovido las aplicaciones **Telegram** y **WeChat**. Sin embargo, es 
 
 #### Telegram
 
-Aunque Telegram es de origen ruso y permite chats encriptados, esta función no está activada por defecto. Además, aunque su código de cliente es de código abierto, el código de los servidores no lo es, lo que genera dudas sobre su seguridad.
+Aunque [Telegram](https://telegram.org/) es de origen ruso y permite chats encriptados, esta función no está activada por defecto. Además, aunque su código de cliente es de código abierto, el código de los servidores no lo es, lo que genera dudas sobre su seguridad.
 
 #### WeChat
 
-WeChat es una aplicación permitida en China, país conocido por sus estrictas políticas de control de información. La privacidad en WeChat es limitada, ya que las comunicaciones no están encriptadas y la aplicación recopila numerosos datos de los usuarios. [Leer más](https://siliconangle.com/2023/07/03/wechat-app-anything-private-must-use-heres-protect/).
+[WeChat](https://www.wechat.com/) es una aplicación permitida en China, país conocido por sus estrictas políticas de control de información. La privacidad en WeChat es limitada, ya que las comunicaciones no están encriptadas y la aplicación recopila numerosos datos de los usuarios. [Leer más](https://siliconangle.com/2023/07/03/wechat-app-anything-private-must-use-heres-protect/).
 
 ### Otras Opciones: Signal y Threema
 
@@ -71,11 +71,11 @@ A continuación, una tabla comparativa entre Signal y Telegram:
 
 #### Conclusión: Signal para Venezuela
 
-Considerando la creciente censura, Signal emerge como la opción más viable para la comunicación segura en Venezuela. Su naturaleza gratuita y de código abierto ofrece mayor transparencia y seguridad, aunque Threema también es una excelente opción para quienes buscan anonimato completo, aunque es una aplicación de pago.
+Considerando la creciente censura, [signal](https://signal.org/) emerge como la opción más viable para la comunicación segura en Venezuela. Su naturaleza gratuita y de código abierto ofrece mayor transparencia y seguridad, aunque [threema](https://threema.ch/) también es una excelente opción para quienes buscan anonimato completo, aunque es una aplicación de pago.
 
 ### VPNs: Herramientas para Evasión de la Censura
 
-Para evitar la censura y acceder libremente a internet, las VPNs son herramientas esenciales. **Tor** ha sido una de las más importantes, especialmente para periodistas y defensores de derechos humanos. Aquí una tabla comparativa de algunas opciones disponibles:
+Para evitar la censura y acceder libremente a internet, las VPNs son herramientas esenciales. [Tor](https://www.torproject.org/) ha sido una de las más importantes, especialmente para periodistas y defensores de derechos humanos. Aquí una tabla comparativa de algunas opciones disponibles:
 
 |  Nombre   | Status |                                                iOS (Apple)                                                 |                                            Android (google)                                             |
 | :-------: | :----: | :--------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
