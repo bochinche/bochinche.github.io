@@ -7,10 +7,10 @@ categories: internet venezuela bloqueo x twitter signal
 
 ## Resumen rápido (para quien no quiera leer mucho)!
 
-|  Función  | iOS (Apple) |        Android (google)        |
-| :-------: | :----: | :--------------------: |
-| Mesajería |   [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669) |  [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)            |
-|    VPN    |   [Tor](https://apps.apple.com/us/app/onion-browser/id519296448), [ProtonVPN](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085)   | [Tor](https://play.google.com/store/apps/details?id=org.torproject.torbrowser), [ProtonVPN](https://f-droid.org/en/packages/ch.protonvpn.android/), [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/), [RiseupVPN](https://f-droid.org/en/packages/se.leap.riseupvpn/) |
+|  Función  |                                                                  iOS (Apple)                                                                   |                                                                                                                                     Android (google)                                                                                                                                     |
+| :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Mesajería |                                  [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)                                  |                                                                                                    [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)                                                                                                    |
+|    VPN    | [Tor](https://apps.apple.com/us/app/onion-browser/id519296448), [ProtonVPN](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085) | [Tor](https://play.google.com/store/apps/details?id=org.torproject.torbrowser), [ProtonVPN](https://f-droid.org/en/packages/ch.protonvpn.android/), [CalyxVPN](https://f-droid.org/en/packages/org.calyxinstitute.vpn/), [RiseupVPN](https://f-droid.org/en/packages/se.leap.riseupvpn/) |
 
 ## Contexto
 
