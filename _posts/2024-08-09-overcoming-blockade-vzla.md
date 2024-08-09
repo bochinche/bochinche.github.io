@@ -96,7 +96,6 @@ También puede interesarle otros servicios de VPN disponibles en la siguiente ta
 |   Psiphon    |     https://psiphon.ca/     |          [Enlace](https://apps.apple.com/us/app/psiphon/id1276263909)          |      [Enlace](https://play.google.com/store/apps/details?id=com.psiphon3)       |
 |   Lantern    |     https://lantern.io/     |        [Enlace](https://apps.apple.com/ae/app/lantern-vpn/id1457872372)        | [Enlace](https://play.google.com/store/apps/details?id=org.getlantern.lantern)  |
 
-
 ## Recursos Adicionales
 
 - [Comparación entre Signal, Telegram y WhatsApp](https://clearvpn.com/blog/signal-vs-telegram-vs-whatsapp/)
