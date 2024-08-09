@@ -68,10 +68,10 @@ Considerando la creciente censura, Signal emerge como la opción más viable par
 
 Para evitar la censura y acceder libremente a internet, las VPNs son herramientas esenciales. **Tor** ha sido una de las más importantes, especialmente para periodistas y defensores de derechos humanos. Aquí una tabla comparativa de algunas opciones disponibles:
 
-|  Nombre   | Status |                                 iOS (Apple)                                 |                                                 Android                                                 |
+|  Nombre   | Status |                                 iOS (Apple)                                 |                                            Android (google)                                             |
 | :-------: | :----: | :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
 |    Tor    | gratis |      [Enlace](https://apps.apple.com/us/app/onion-browser/id519296448)      | [Enlace](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&pcampaignid=web_share) |
-| Calyx VPN |  n.a.  |       [Enlace](https://apps.apple.com/us/app/calyx-vpn/id1539625817)        |                     [Enlace](https://f-droid.org/en/packages/ch.protonvpn.android)                      |
+| Calyx VPN |  n.a.  |       [Enlace](https://apps.apple.com/us/app/calyx-vpn/id1539625817)        |                    [Enlace](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)                    |
 | ProtonVPN |   0$   | [Enlace](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085) |                     [Enlace](https://f-droid.org/en/packages/ch.protonvpn.android)                      |
 
 ## Recursos Adicionales
