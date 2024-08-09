@@ -58,7 +58,7 @@ A continuación, una tabla comparativa entre Signal y Telegram:
 |                       Función                       |               Signal                |                         Telegram                          |
 | :-------------------------------------------------: | :---------------------------------: | :-------------------------------------------------------: |
 |                      Gratuito                       |                  X                  |                             X                             |
-|                   Fuente abierta                    |                  X                  |                  sólo código de cliente                   |
+|              Código de fuente abierta               |                  X                  |                  sólo código de cliente                   |
 |            Cifrado de extremo a extremo             |                  X                  |                  sólo en chats secretos                   |
 |                 Conforme a la DSGVO                 |                  X                  |                             X                             |
 |              Sincronización en la nube              |                  X                  |                             X                             |
