@@ -83,7 +83,7 @@ Para evitar la censura y acceder libremente a internet, las VPNs son herramienta
 | :-------: | :----: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
 |    Tor    | gratis | [Enlace Browser](https://apps.apple.com/us/app/onion-browser/id519296448) [Enlace Client VPN](https://apps.apple.com/us/app/orbot/id1609461599) | [Enlace](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&pcampaignid=web_share) |
 | Calyx VPN | gratis |                                         [Enlace](https://apps.apple.com/us/app/calyx-vpn/id1539625817)                                          |                    [Enlace](https://f-droid.org/en/packages/org.calyxinstitute.vpn/)                    |
-| RiseUpVPN (reistro necesario*) | gratis |                   [Enlace](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981) + Perfil OpenVPN de RiseUp*                   |                                 [Enlace](https://riseup.net/en/android)                                 |
+| RiseUpVPN (reistro necesario) | gratis |                   [Enlace](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981) + Perfil OpenVPN de RiseUp                   |                                 [Enlace](https://riseup.net/en/android)                                 |
 | ProtonVPN |   0$   |                                   [Enlace](https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085)                                   |                     [Enlace](https://f-droid.org/en/packages/ch.protonvpn.android)                      |
 
 ## Recursos Adicionales
@@ -93,4 +93,4 @@ Para evitar la censura y acceder libremente a internet, las VPNs son herramienta
 - [Comentario de Edward Snowden sobre Signal](https://x.com/Snowden/status/1350123606601322496)
 - [Comparación Signal vs Threema en Wired](https://www.wired.com/story/signal-politics-software-criticism/)
 - [Comparación Signal vs Threema en Brosix](https://www.brosix.com/blog/threema-vs-signal/)
-- \* [RiseUp](https://riseup.net/) - este servicio necesita que el usuario se registre para poder obtener el Perfil de OpenVPN de RiseUp.
+- [RiseUp](https://riseup.net/) - este servicio necesita que el usuario se registre para poder obtener el Perfil de OpenVPN de RiseUp.
