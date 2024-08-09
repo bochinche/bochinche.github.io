@@ -93,4 +93,4 @@ Para evitar la censura y acceder libremente a internet, las VPNs son herramienta
 - [Comentario de Edward Snowden sobre Signal](https://x.com/Snowden/status/1350123606601322496)
 - [Comparación Signal vs Threema en Wired](https://www.wired.com/story/signal-politics-software-criticism/)
 - [Comparación Signal vs Threema en Brosix](https://www.brosix.com/blog/threema-vs-signal/)
-- * [RiseUp](https://riseup.net/) - este servicio necesita que el usuario se registre para poder obtener el Perfil de OpenVPN de RiseUp.
+- \* [RiseUp](https://riseup.net/) - este servicio necesita que el usuario se registre para poder obtener el Perfil de OpenVPN de RiseUp.
