@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing Wireguard on Synology DSM 6.X and 7.X"
-date:   2023-03-20 07:45:47 +0100
+date:   2023-03-20 08:00:00 +0100
 categories: IT linux synology  
 ---
 

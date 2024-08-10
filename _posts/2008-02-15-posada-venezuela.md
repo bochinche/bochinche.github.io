@@ -1,29 +1,42 @@
 ---
 layout: post
 title:  "on Venezuela, the Beaches, Chichirivichi and the Vel-Paraiso Posada"
-date:   2008-02-15 17:45:47 +0100
+date:   2008-02-15 08:00:00 +0100
 categories: travel
 ---
-Durante mi último viaje a Venezuela, pasé un tiempo en un lugar maravilloso de Chichirivichi. Como siempre, las playas eran fantásticas. Tuve la oportunidad de comer empanadas y todo ese tipo de cosas.
 
-Éste es el lugar que quiero presentarte: la Posada "Vel Paraíso":
+Durante mi reciente viaje a Venezuela, tuve la oportunidad de descubrir un rincón verdaderamente encantador en Chichiriviche, un lugar que destaca por sus espectaculares playas y su ambiente acogedor. Este paraíso tropical me brindó la oportunidad de disfrutar de deliciosas empanadas y de la calidez de su gente, experiencias que deseo compartir contigo.
 
-Esta posada se encuentra en la parte de "Playa Norte" de Chichiriviche. La posada está en construcción y tiene cuatro habitaciones listas para alquilar.
-El lugar está a 5 minutos de la playa, donde los "peñeros" venezolanos te llevan a los "cayos" (pequeñas islas) donde puedes ir a la playa. También puedes dar un paseo por la playa hasta el "Malecón", donde tiene lugar la vida nocturna.
-La posada está muy bien equipada: las habitaciones tienen aire acondicionado, camas cómodas, baño privado y un gran armario.
-La parte común de la casa tiene un gran comedor, sala de estar y cocina.
+Hoy quiero presentarte un lugar especial: la Posada "Vel Paraíso".
 
----
-During my last trip to Venezuela, I spent some time at a wonderful place in Chichirivichi. As always, the beaches were fantastic. I had the opportunity to eat "empanadas" and all that kind of stuff.
+Ubicada en la tranquila zona de "Playa Norte" en Chichiriviche, la Posada "Vel Paraíso" es un refugio en pleno desarrollo, con cuatro habitaciones ya disponibles para alquilar. A tan solo cinco minutos de la playa, este alojamiento ofrece fácil acceso a los tradicionales "peñeros" venezolanos, que te llevarán a explorar los impresionantes "cayos", pequeñas islas donde puedes disfrutar de playas de ensueño. Además, puedes dar un relajante paseo por la playa hasta llegar al "Malecón", el epicentro de la vibrante vida nocturna de la zona.
 
-This is the place I want to introduce you to: the "Vel Paraiso" Posada:
+La posada está equipada con todas las comodidades necesarias para una estancia confortable. Las habitaciones cuentan con aire acondicionado, camas amplias y confortables, baño privado, y un espacioso armario para que te sientas como en casa. En las áreas comunes, encontrarás un amplio comedor, una acogedora sala de estar, y una cocina totalmente equipada, perfectos para compartir momentos inolvidables con amigos o familiares.
 
-This posada (Spanish name for hostel) is located in the "Playa Norte" part of Chichiriviche. The posada is under construction and has four rooms ready for rent.
-The place is 5 minutes from the beach where the Venezuelan "peñeros" (small boats) take you to the "cayos" (small islands) where you can go to the beach. You can also take a walk along the beach to the "Malecon" where the night life takes place.
-The posada is very well equipped: the rooms have air conditioning, comfortable beds, a private bathroom and a large closet.
-The common part of the house has a large dining room, living room and kitchen.
+En definitiva, la Posada "Vel Paraíso" es un lugar ideal para desconectar, disfrutar de la belleza natural de Chichiriviche y sumergirte en la autenticidad de la cultura venezolana. ¡Te invito a descubrirlo por ti mismo!
 
 ---
+
+During my recent trip to Venezuela, I had the opportunity to discover a truly charming spot in Chichiriviche, a place that stands out for its spectacular beaches and welcoming atmosphere. This tropical paradise gave me the chance to enjoy delicious empanadas and the warmth of its people, experiences that I am eager to share with you.
+
+Today, I want to introduce you to a special place: the "Vel Paraíso" Inn.
+
+Located in the peaceful "Playa Norte" area of Chichiriviche, the "Vel Paraíso" Inn is a haven still under development, with four rooms already available for rent. Just a five-minute walk from the beach, this accommodation offers easy access to the traditional Venezuelan "peñeros," small boats that will take you to explore the stunning "cayos," small islands where you can enjoy dreamlike beaches. Additionally, you can take a leisurely stroll along the beach to reach the "Malecón," the heart of the area’s vibrant nightlife.
+
+The inn is equipped with all the necessary amenities for a comfortable stay. The rooms feature air conditioning, spacious and comfortable beds, private bathrooms, and a large wardrobe to make you feel right at home. In the common areas, you’ll find a large dining room, a cozy living room, and a fully equipped kitchen, perfect for sharing unforgettable moments with friends or family.
+
+In short, the "Vel Paraíso" Inn is an ideal place to unwind, enjoy the natural beauty of Chichiriviche, and immerse yourself in the authenticity of Venezuelan culture. I invite you to discover it for yourself!
+
+---
+
+Algunas imágenes de la posada!
+
+![image](/assets/images/2008-PosadaVictza-01.jpg)
+![image](/assets/images/2008-PosadaVictza-02.jpg)
+
+---
+
+
 Datos de contacto de la posada / Posada's contact details
-- mail: [victzavelazquez@hotmail.com](mailto:victzavelazquez@hotmail.com)
-- whatsapp: [+58-424-4579541](https://api.whatsapp.com/send?phone=00584244579541)
+- e-Mail: [victzavelazquez@hotmail.com](mailto:victzavelazquez@hotmail.com)
+- WhatsApp: [+58-424-4579541](https://api.whatsapp.com/send?phone=00584244579541)

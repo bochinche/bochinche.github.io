@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Huawei 3G Dongle AT Commands"
-date:   2023-04-18 07:45:47 +0100
+date:   2023-04-19 08:00:00 +0100
 categories: IT linux huawei dongle  
 ---
 
@@ -10,9 +10,9 @@ categories: IT linux huawei dongle
 - [List of AT Commands for Huawei USB Dongle](#list-of-at-commands-for-huawei-usb-dongle)
 - [AT Commands](#at-commands)
   - [Signal Quality Report](#signal-quality-report)
-  - [Making a Call using AT Commands](#making-a-call-using-at-commands)
-- [External Links](#links)
-- [Other Mirrors](#mirrors)
+- [Making a Call using AT Commands](#making-a-call-using-at-commands)
+- [Links](#links)
+- [Mirrors](#mirrors)
 
 # AT Commands
 

@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "sobre el iPhone 4 en Venezuela: Digitel y Movistar"
-date:   2011-06-15 17:45:47 +0100
-categories: IT
+date:   2011-06-15 08:00:00 +0100
+categories: IT iphone iOS
 ---
+
 # Version en Castellano
+
 Anglicismos utilizados en este artículo:
 
 - simlock –> bloqueo de la tarjeta SIM
@@ -113,7 +115,7 @@ Technical knowledge is not really necessary! On the following page you will find
 In case your iOS version is the most current and you cannot do a software unlock, the alternative is the gevey sim adapter. These are currently available for 150 BsF. at mercadolibre.com.ve.
 
 ---
-## Links
+## Enlaces / Links
 - [http://support.apple.com/kb/HT1937?viewlocale=es_ES](http://support.apple.com/kb/HT1937?viewlocale=es_ES)
 - [http://en.wikipedia.org/wiki/IPhone](http://en.wikipedia.org/wiki/IPhone)
 - [http://theiphonewiki.com/wiki/index.php?title=Unlock](http://theiphonewiki.com/wiki/index.php?title=Unlock)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wireguard: site-to-site (lan-2-lan) between linux and fritz.box"
-date:   2023-05-16 17:45:47 +0100
+date:   2023-05-16 08:00:00 +0100
 categories: IT Germany 
 ---
 

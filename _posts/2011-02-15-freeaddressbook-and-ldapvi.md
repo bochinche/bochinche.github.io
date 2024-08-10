@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "on a free based ldap address-book and ldapvi"
-date:   2011-02-15 17:45:47 +0100
+date:   2011-02-15 08:00:00 +0100
 categories: IT
 ---
 

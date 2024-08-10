@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mirror: On Huawei 3G dongles voice capabilities"
-date:   2023-04-18 08:45:47 +0100
+date:   2023-04-18 08:00:00 +0100
 categories: IT linux huawei dongle  
 ---
 
@@ -12,15 +12,13 @@ This is Google's cache of [https://wiki.tadeu.org/misc:huaweii-voice](https://wi
 
 # Table of Contents
 
-*   [On Huawei 3G dongles voice capabilities](#on_huawei_3g_dongles_voice_capabilities)
-    
-    *   [On locked/unlocked voice function](#on_locked_and_unlocked_voice_function)
-        
-    *   [How it works](#how_it_works)
-        
-    *   [In practice](#in_practice)
-        
-    *   [References](#references)
+- [Table of Contents](#table-of-contents)
+- [On Huawei 3G dongles voice capabilities](#on-huawei-3g-dongles-voice-capabilities)
+  - [On locked and unlocked voice function](#on-locked-and-unlocked-voice-function)
+  - [How it works](#how-it-works)
+  - [In practice](#in-practice)
+  - [References](#references)
+  - [Links](#links)
         
 
 # On Huawei 3G dongles voice capabilities

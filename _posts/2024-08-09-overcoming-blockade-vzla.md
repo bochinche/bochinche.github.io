@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Guía para Comunicarse de Forma Segura en Venezuela: Opciones de Mensajería y VPNs para Evadir la Censura"
-date:   2024-08-08 12:00:00 +0100
+date:   2024-08-08 08:00:00 +0100
 categories: internet venezuela bloqueo x twitter signal
 ---
 

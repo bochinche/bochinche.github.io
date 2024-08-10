@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Frecuencias de las redes GSM en Venezuela"
-date:   2023-03-02 07:45:47 +0100
+date:   2023-03-02 08:00:00 +0100
 categories: IT Venezuela 
 ---
 
@@ -15,4 +15,4 @@ En mi caso, dejé de tener contrato con Movilnet hace mucho tiempo. De modo que 
 
 saludos, **bochinche** 
 
-\* *dongle*: es un pequeño dispositivo, que se conecta a otro dispositivo para aportar una función adicional. Es normal hablar de llaves/adaptadores USB cuando proporcionan una funcionalidad a través de este tipo de conexión, o adaptadores/llaves HDMI, como los Chromecast de Google o los módems 3G o 4G para conectar computadores a internet. 
+˙*˙ *dongle*: es un pequeño dispositivo, que se conecta a otro dispositivo para aportar una función adicional. Es normal hablar de llaves/adaptadores USB cuando proporcionan una funcionalidad a través de este tipo de conexión, o adaptadores/llaves HDMI, como los Chromecast de Google o los módems 3G o 4G para conectar computadores a internet. 

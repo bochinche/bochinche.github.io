@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Evolving Meaning Behind a Powerful Postcard / El Significado en Evolución detrás de una Tarjeta Postal Poderosa"
-date:   2023-12-17 08:45:47 +0100
+date:   2023-12-27 08:00:00 +0100
 categories: leadership management 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "on linux + MS AD Authentication using nssldap and PAM"
-date:   2007-10-15 17:45:47 +0100
+date:   2007-10-15 08:00:00 +0100
 categories: IT windows linux
 ---
 
@@ -22,7 +22,7 @@ The nss_ldap module can be used to access the MS AD ldap tree if configured corr
 
 We need the following options:
 
-```
+```bash
 /etc/nssswitch.conf
 passwd: compat ldap
 group: compat ldap
@@ -32,7 +32,9 @@ We also need to change the /etc/ldap.conf or /etc/ldap/ldap.conf configuration f
 
 We shall be able to check if everything is working correctly by issuing the following command
 
-```getent passwd DOMAINUSER```
+```bash 
+getent passwd DOMAINUSER
+```
 
 NOTES:
 We do not use SSL since it adds a a level of complexity to our environment. We are already in a very tight capsule as to be worried about securities issues. If you prefer to go on the save side you could add the AD DC SSL certificate.
@@ -42,7 +44,7 @@ We do not use SSL since it adds a a level of complexity to our environment. We a
 In order to enable kerberos for user login we only need to edit the following file:
 /etc/krb5.conf and add the realm of the domain against we want to authenticate:
 
-```
+```bash
 /etc/krb5.conf
 [libdefaults]
 default_realm = EXAMPLE.COM
@@ -50,10 +52,14 @@ default_realm = EXAMPLE.COM
 
 After this step the configuration could be tested issuing the following command
 
-``` kinit username@EXAMPLE.COM ```
+```bash 
+kinit username@EXAMPLE.COM 
+```
 
 The following command should show a list with exactly one ticket:
-``` klist ```
+```bash 
+klist 
+```
 
 If you get the following error:
 “kinit(v5):Clock skew too great while getting initial credentials”
@@ -63,17 +69,18 @@ you should update the date and time of the system by using ntp-date.
 
 The final step of our configuration is to allow ssh access to domain users:
 
-```/etc/pam.d/ssh:
+```bash
+/etc/pam.d/ssh:
 # PAM configuration for the Secure Shell service
 ```
 
-```
+```bash
 # Read environment variables from /etc/environment and
 # /etc/security/pam_env.conf.
 auth required pam_env.so # [1]
 ```
 
-```
+```bash
 # Standard Un*x authentication.
 #@include common-auth
 auth sufficient pam_krb5.so

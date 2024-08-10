@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "on living abroad and adapting to a new culture: the easy choice?"
-date:   2008-08-15 17:45:47 +0100
+date:   2008-08-15 08:00:00 +0100
 categories: travel
 ---
 ## English Version

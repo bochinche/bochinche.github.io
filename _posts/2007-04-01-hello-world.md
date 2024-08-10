@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World"
-date:   2007-04-01 17:45:47 +0100
+date:   2007-04-01 08:00:00 +0100
 categories: blog
 ---
 After thinking about it for a long time I finally decided to spend some time into my blog. I have had some ideas on what I wanted to post about: IT, politics, traveling, salsa dancing, mechanics, Venezuela special places and that kind of stuff.

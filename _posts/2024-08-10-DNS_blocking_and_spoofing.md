@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "¿Cómo Evitar el Bloqueo de Internet de CONATEL? Articulo Nr. 1 - Suplantación y bloqueo de DNS"
-date:   2024-08-10 12:00:00 +0100
+date:   2024-08-10 08:00:00 +0100
 categories: IT venezuela bloqueo dns
 ---
 

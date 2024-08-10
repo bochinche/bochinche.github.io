@@ -1,11 +1,11 @@
-
+---
 layout: post
 title:  "Configuración de wvdial para Digitel (Venezuela)"
-date:   2022-12-31 17:45:47 +0100
+date:   2023-01-30 08:00:00 +0100
 categories: IT Venezuela digitel
+---
 
-
-### Introducción
+## Introducción
 En muchas ocasiones, cuando intentamos utilizar un módem USB 3G en Linux, nos encontramos con la necesidad de configurarlo manualmente para que funcione correctamente. Uno de los métodos más comunes y efectivos es a través de `wvdial`, una herramienta que permite la conexión a internet mediante módems analógicos y 3G. En este artículo, te guiaré paso a paso para configurar y utilizar `wvdial` con un dongle 3G Huawei.
 
 

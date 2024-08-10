@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "on VLC stream to Airport Express"
-date:   2011-08-11 17:45:47 +0100
-categories: IT
+date:   2011-08-11 08:00:00 +0100
+categories: IT iOS VLC
 ---
 
 Hello Readers,
