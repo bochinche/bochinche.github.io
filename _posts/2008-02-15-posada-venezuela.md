@@ -32,6 +32,8 @@ In short, the "Vel Paraíso" Inn is an ideal place to unwind, enjoy the natural 
 Algunas imágenes de la posada!
 
 ![image](/assets/images/2008-PosadaVictza-01.jpg)
+
+
 ![image](/assets/images/2008-PosadaVictza-02.jpg)
 
 ---

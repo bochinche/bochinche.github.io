@@ -27,4 +27,4 @@ Para sustituir completamente a WhatsApp, **Signal o Threema** son alternativas m
 
 Únete a **@puerta_digital_venezuela** y mantente informado sobre cómo proteger tu acceso a la información y tus derechos digitales. **¡No permitas que te silencien!**
 
-**[¡Únete ahora!](https://t.me/puerta_digital_venezuela?boost)** y comparte este canal con quienes más lo necesitan.
+**[¡Únete ahora y hazle un boost a nuestro canal!](https://t.me/puerta_digital_venezuela?boost)** y comparte este canal con quienes más lo necesitan.
