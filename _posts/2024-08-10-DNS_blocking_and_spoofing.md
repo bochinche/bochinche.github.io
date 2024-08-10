@@ -46,4 +46,7 @@ La mayor ventaja de estas solución, WARP, es que solo el tráfico DNS será red
 
 En conclusión, aunque los bloqueos de DNS pueden parecer una barrera formidable, existen métodos eficaces y accesibles para superarlos. Cambiar el servidor DNS o utilizar aplicaciones como WARP son soluciones prácticas que pueden ayudarte a mantener tu acceso a Internet sin restricciones.
 
-Pronto publicaremos otro artículo en el que profundizaremos en el tema y otras soluciones que nos podrán ayudar. 
+Pronto publicaremos otro artículo en el que profundizaremos en el tema y otras soluciones que nos podrán ayudar.
+
+### Enlaces 
+- [VE sin Filtro: Más de 550 eventos de bloqueos en Internet evidencian la censura y las limitaciones a los derechos humanos en Venezuela](https://vesinfiltro.com/noticias/2024-03-12-Censura-internet/)
