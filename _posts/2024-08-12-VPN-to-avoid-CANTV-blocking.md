@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "¿Cómo Evitar el Bloqueo de Internet de CONATEL? Articulo Nr. 2 - HTTPS Block "
-date:   2024-08-08 08:00:00 +0100
+date:   2024-08-12 08:00:00 +0100
 categories: internet venezuela bloqueo x twitter signal
 ---
 
