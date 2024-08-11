@@ -4,7 +4,6 @@ title:  "¿Cómo Evitar el Bloqueo de Internet de CONATEL? Articulo Nr. 1 - Supl
 date:   2024-08-10 08:00:00 +0100
 categories: IT venezuela bloqueo dns
 ---
-
 ## Resumen rápido (para quien no quiera leer mucho)
 
 - Para computadores portátiles, de escritorio, así como para móviles, recomendamos usar la aplicación WARP, de Cloudflare, que puedes encontrar en este [enlace](https://one.one.one.one/). 
