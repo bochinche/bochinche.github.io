@@ -6,7 +6,7 @@ categories: IT venezuela bloqueo dns
 ---
 ## Resumen rápido (para quien no quiera leer mucho)
 
-- Para computadores portátiles, de escritorio, así como para móviles, recomendamos usar la aplicación WARP, de Cloudflare, que puedes encontrar en este [enlace](https://one.one.one.one/). 
+- Para computadores portátiles, de escritorio, así como para móviles, recomendamos usar la aplicación [WARP](https://one.one.one.one/), de Cloudflare, que puedes encontrar en este [enlace](https://one.one.one.one/). 
 - Para modems y enrutadores (routers), recomendamos utilizar estos servidores DNS en vez de los que proporciona tu proveedor de internet.
 
 | Proveedor de DNS | Servidor DNS 1 | Servidor DNS 1 |
@@ -37,13 +37,15 @@ Si tienes acceso a la configuración de tu módem o router en casa, puedes cambi
 
 **2. Soluciones para Dispositivos Móviles y Computadoras:**
 
-Además de modificar la configuración del DNS en tu dispositivo, puedes utilizar aplicaciones especializadas para mejorar la seguridad y la privacidad de tu conexión. Una excelente opción es WARP, una aplicación desarrollada por Cloudflare. WARP crea una especie de "semi-VPN" que asegura que todo el tráfico DNS pase por un túnel seguro, lo que ayuda a eludir cualquier bloqueo impuesto por tu ISP. Esta aplicación está disponible tanto para dispositivos móviles como para computadoras, y es fácil de instalar y usar. Es importante destacar que, en su configuración más básica, WARP no es una VPN completa.
+Además de modificar la configuración del DNS en tu dispositivo, puedes utilizar aplicaciones especializadas para mejorar la seguridad y la privacidad de tu conexión. Una excelente opción es [WARP](https://one.one.one.one/), una aplicación desarrollada por Cloudflare. [WARP](https://one.one.one.one/) crea una especie de "semi-VPN" que asegura que todo el tráfico DNS pase por un túnel seguro, lo que ayuda a eludir cualquier bloqueo impuesto por tu ISP. Esta aplicación está disponible tanto para dispositivos móviles como para computadoras, y es fácil de instalar y usar. Es importante destacar que, en su configuración más básica, [WARP](https://one.one.one.one/) no es una VPN completa.
+
+WARP lo puedes encontrar en este [enlace](https://one.one.one.one/) para todas las plataformas. 
 
 #### Ventajas de Estas Soluciones
 
-La mayor ventaja de estas solución, WARP, es que solo el tráfico DNS será redirigido a través del túnel VPN, lo que significa que tu conexión general a Internet permanecerá rápida y sin interrupciones. Además, estas solución son fáciles de implementar, incluso para usuarios con conocimientos técnicos limitados, y ofrecen una capa adicional de seguridad y privacidad al navegar.
+La mayor ventaja de estas solución, [WARP](https://one.one.one.one/), es que solo el tráfico DNS será redirigido a través del túnel VPN, lo que significa que tu conexión general a Internet permanecerá rápida y sin interrupciones. Además, estas solución son fáciles de implementar, incluso para usuarios con conocimientos técnicos limitados, y ofrecen una capa adicional de seguridad y privacidad al navegar.
 
-En conclusión, aunque los bloqueos de DNS pueden parecer una barrera formidable, existen métodos eficaces y accesibles para superarlos. Cambiar el servidor DNS o utilizar aplicaciones como WARP son soluciones prácticas que pueden ayudarte a mantener tu acceso a Internet sin restricciones.
+En conclusión, aunque los bloqueos de DNS pueden parecer una barrera formidable, existen métodos eficaces y accesibles para superarlos. Cambiar el servidor DNS o utilizar aplicaciones como [WARP](https://one.one.one.one/) son soluciones prácticas que pueden ayudarte a mantener tu acceso a Internet sin restricciones.
 
 Pronto publicaremos otro artículo en el que profundizaremos en el tema y otras soluciones que nos podrán ayudar.
 
