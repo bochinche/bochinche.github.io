@@ -58,6 +58,9 @@ categories: IT linux huawei dongle
 |        AT^U2DIAG=255        |                                       modem mode + CD-ROM + Card Reader                                       |
 |        AT^U2DIAG=256        |                                           modem mode + Card Reader                                            |
 |        AT^U2DIAG=375        |                                        will  get back into HiLink mode                                        |
+|        AT+CCWA=0,0,1        |                                             disable call-waiting                                              |
+|         AT+CFUN=1,1         |                                                 reset dongle                                                  |
+| AT^SYSCFG=13,0,3FFFFFFF,0,3 |                                      modem 2G only, any band, no roaming                                      |
 
 ## Signal Quality Report 
 Indicate the received signal strength indicator (RSSI) and the channel bit error rate (BER). For example the first received number (23) means the RSSI is -67 dBm and the second number (99) shows the channel bit error rate in percent. 0: Less than or equal to -113dBm  1: -111dBm 2…30: -109… -53dBm 31: Greater than or equal to -51dBm 99: Not known (As you see in the response from the module the status for TELUS is 2 which means it is the current operator.)
@@ -66,6 +69,17 @@ Indicate the received signal strength indicator (RSSI) and the channel bit error
 1. AT^DDSETEX=2, which you need to issue everytime you call (because, by default, it routes the PCM data to the oblivion or the non-working mysterious PCVOICE port, dunno);
 2. ATD[phonenumber]; (the semicolon is very important, trust me… Otherwise you get NO CARRIER answers)
 3. AT+CHUP to hang up on the call.
+
+
+
+
+# Clean SMS in SIM
+| Topic                                           |    Link     |
+| :---------------------------------------------1 | :---------: |
+| dongle cmd dongle0 AT+CPMS=\"SM\",\"SM\",\"SM\" |             |
+| dongle cmd dongle0 AT+CMGD=1,4                  |             |
+| dongle ussd dongle0 *123#                       | pedir saldo |
+
 
 # Links
 
