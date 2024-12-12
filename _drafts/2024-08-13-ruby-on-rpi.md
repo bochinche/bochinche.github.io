@@ -1,0 +1,5 @@
+[](https://seasidetesting.com/2022/11/10/getting-started-with-ruby-and-rbenv-on-a-raspberry-pi/)
+[](https://stackoverflow.com/questions/54977098/how-to-change-which-version-of-ruby-i-am-using)
+[](https://jekyllrb.com/docs/installation/macos/)
+[](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#how-to-install-different-versions-of-ruby-and-switch-between-them)
+[](https://github.com/jekyll/jekyll/issues/9233)
