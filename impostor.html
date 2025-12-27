@@ -12,7 +12,7 @@
     body {
       margin: 0;
       padding: 1.5rem;
-      background: #111827;
+      background: #111111;          /* dark grey background */
       color: #e5e7eb;
     }
     h1, h2, h3 {
@@ -20,7 +20,7 @@
       color: #f9fafb;
     }
     .card {
-      background: #1f2937;
+      background: #1e1e1e;          /* dark grey cards */
       border-radius: 0.75rem;
       padding: 1.25rem;
       margin-bottom: 1rem;
@@ -37,7 +37,7 @@
       padding: 0.5rem 0.75rem;
       border-radius: 0.5rem;
       border: 1px solid #374151;
-      background: #111827;
+      background: #111111;
       color: #e5e7eb;
       font-size: 1rem;
       box-sizing: border-box;
@@ -89,7 +89,7 @@
       border-radius: 0.75rem;
       border: 1px solid #374151;
       padding: 0.75rem;
-      background: #0f172a;
+      background: #101010;
       font-size: 0.9rem;
     }
     .player-title {
@@ -148,6 +148,11 @@
       background: white;
       padding: 0.25rem;
     }
+    ul {
+      margin-top: 0.25rem;
+      margin-bottom: 0.5rem;
+      padding-left: 1.2rem;
+    }
     @media (min-width: 720px) {
       body {
         max-width: 840px;
@@ -191,7 +196,7 @@
     async function fetchRandomWordOnline(lang) {
       let apiLang = "";
       if (lang === "es") apiLang = "es";
-      else if (lang === "de") apiLang = "de"; // try German if supported
+      else if (lang === "de") apiLang = "de"; // attempt German
       // default EN if empty
 
       let url = "https://random-word-api.herokuapp.com/word?number=1";
@@ -250,6 +255,9 @@
       return en; // default English
     }
 
+    // Fair impostor counts across rounds (per browser session)
+    let impostorCounts = null;
+
     function render() {
       const urlParams = new URLSearchParams(window.location.search);
       const token = urlParams.get("t");
@@ -263,7 +271,9 @@
           document.getElementById("app").innerHTML = `
             <div class="card">
               <h1>Error</h1>
-              <p class="small">Enlace/Link ungültig. Pide al anfitrión einen neuen Code.</p>
+              <p class="small">
+                Enlace/Link ungültig. Pide al anfitrión / Bitte den Host um einen neuen Code.
+              </p>
             </div>
           `;
         }
@@ -324,8 +334,8 @@
               ${t(
                 lang,
                 "El anfitrión dirigirá la ronda de pistas y la votación. Los jugadores con palabra deben dar pistas sin decirla directamente. El impostor intentará mezclarse sin conocer la palabra.",
-                "The host will lead the clue round and voting. Players with the word give subtle clues. The impostor will try to blend in without knowing the word.",
-                "Der Host leitet die Hinweisrunde und die Abstimmung. Spieler mit dem Wort geben subtile Hinweise, ohne es direkt zu sagen. Der Impostor versucht mitzuhalten, ohne das Wort zu kennen."
+                "The host will lead the clue round and voting. Players with the word give subtle clues without saying it directly. The impostor will try to blend in without knowing the word.",
+                "Der Host leitet die Hinweisrunde und die Abstimmung. Spieler mit dem Wort geben subtile Hinweise, ohne es direkt zu nennen. Der Impostor versucht mitzuhalten, ohne das Wort zu kennen."
               )}
             </p>
           </div>
@@ -347,6 +357,54 @@
         </div>
 
         <div class="card">
+          <h2>Cómo jugar / How to play / Spielanleitung</h2>
+          <h3>Español</h3>
+          <ul>
+            <li>El anfitrión escribe los nombres de todos los jugadores.</li>
+            <li>La app elige una palabra secreta y un impostor.</li>
+            <li>Cada jugador escanea su código QR:
+              <ul>
+                <li>Jugadores normales ven la palabra.</li>
+                <li>El impostor solo ve que es el impostor, sin palabra.</li>
+              </ul>
+            </li>
+            <li>Por turnos, cada jugador da una pista corta sobre la palabra.</li>
+            <li>Tras una o dos rondas de pistas, todos votan quién creen que es el impostor.</li>
+            <li>El anfitrión revela quién era el impostor y la palabra secreta.</li>
+          </ul>
+
+          <h3>English</h3>
+          <ul>
+            <li>The host enters all player names.</li>
+            <li>The app chooses a secret word and one impostor.</li>
+            <li>Each player scans their QR code:
+              <ul>
+                <li>Normal players see the secret word.</li>
+                <li>The impostor only sees they are the impostor, no word.</li>
+              </ul>
+            </li>
+            <li>In turns, each player gives a short clue about the word.</li>
+            <li>After one or two clue rounds, everyone votes who they think is the impostor.</li>
+            <li>The host reveals the impostor and the secret word.</li>
+          </ul>
+
+          <h3>Deutsch</h3>
+          <ul>
+            <li>Der Host trägt alle Spielernamen ein.</li>
+            <li>Die App wählt ein geheimes Wort und einen Impostor.</li>
+            <li>Jeder Spieler scannt seinen QR-Code:
+              <ul>
+                <li>Normale Spieler sehen das geheime Wort.</li>
+                <li>Der Impostor sieht nur, dass er Impostor ist – ohne Wort.</li>
+              </ul>
+            </li>
+            <li>Reihum gibt jeder Spieler einen kurzen Hinweis zum Wort.</li>
+            <li>Nach ein bis zwei Runden Hinweise stimmen alle ab, wer der Impostor ist.</li>
+            <li>Der Host deckt den Impostor und das geheime Wort auf.</li>
+          </ul>
+        </div>
+
+        <div class="card">
           <h2>Configuración de la sesión</h2>
           <div class="row">
             <div>
@@ -359,7 +417,7 @@
             </div>
             <div>
               <label for="customWord">Palabra / Wort (opcional)</label>
-              <input id="customWord" type="text" placeholder="vacío = palabra aleatoria / zufälliges Wort" />
+              <input id="customWord" type="text" placeholder="vacío = palabra aleatoria / empty = random word" />
             </div>
           </div>
 
@@ -414,7 +472,10 @@ Carlos
           .filter(s => s.length > 0);
 
         if (rawNames.length < 3) {
-          alert("Introduce al menos 3 nombres de jugadores (uno por línea). / Bitte mindestens 3 Spielernamen (eine Zeile pro Spieler) eingeben.");
+          alert(
+            "Introduce al menos 3 nombres de jugadores (uno por línea).\n" +
+            "Bitte mindestens 3 Spielernamen (eine Zeile pro Spieler) eingeben."
+          );
           return;
         }
 
@@ -427,7 +488,20 @@ Carlos
         }
 
         const gameId = createGameId();
-        const impostorIndex = randomInt(nPlayers);
+
+        // --- Fair impostor selection across rounds ---
+        if (!impostorCounts || impostorCounts.length !== nPlayers) {
+          impostorCounts = new Array(nPlayers).fill(0);
+        }
+        const minCount = Math.min(...impostorCounts);
+        const candidates = [];
+        for (let i = 0; i < nPlayers; i++) {
+          if (impostorCounts[i] === minCount) {
+            candidates.push(i);
+          }
+        }
+        const impostorIndex = candidates[randomInt(candidates.length)];
+        impostorCounts[impostorIndex]++;
 
         currentSession = {
           gameId,
@@ -447,10 +521,10 @@ Carlos
 
           const payload = {
             v: 1,
-            w: word,          // word
-            l: lang,          // language
-            p: i,             // player index
-            r: isImpostor ? "I" : "N", // role: Impostor / Normal
+            w: word,              // word
+            l: lang,              // language
+            p: i,                 // player index
+            r: isImpostor ? "I" : "N", // role
             n: playerName
           };
 
@@ -477,7 +551,7 @@ Carlos
         }
 
         sessionInfo.textContent =
-          `ID de sesión: ${gameId} · Jugadores/Spieler: ${nPlayers}`;
+          `ID sesión / Session-ID: ${gameId} · Jugadores/Spieler: ${nPlayers}`;
         btnReveal.disabled = false;
       });
 
@@ -485,7 +559,8 @@ Carlos
         if (!currentSession) return;
         const name = currentSession.playerNames[currentSession.impostorIndex];
         alert(
-          `El impostor es / Der Impostor ist: ${name} (jugador/Spieler #${currentSession.impostorIndex + 1})\n` +
+          `El impostor es / Der Impostor ist: ${name} ` +
+          `(jugador/Spieler #${currentSession.impostorIndex + 1})\n` +
           `Palabra secreta / Geheimes Wort: “${currentSession.word}”`
         );
       });
