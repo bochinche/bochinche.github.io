@@ -12,15 +12,12 @@
     body {
       margin: 0;
       padding: 1.5rem;
-      background: #111111;          /* dark grey background */
+      background: #111111; /* dark grey background */
       color: #e5e7eb;
     }
-    h1, h2, h3 {
-      margin-top: 0;
-      color: #f9fafb;
-    }
+    h1, h2, h3 { margin-top: 0; color: #f9fafb; }
     .card {
-      background: #1e1e1e;          /* dark grey cards */
+      background: #1e1e1e;
       border-radius: 0.75rem;
       padding: 1.25rem;
       margin-bottom: 1rem;
@@ -47,10 +44,7 @@
       outline-offset: 1px;
       border-color: #6366f1;
     }
-    textarea {
-      min-height: 100px;
-      resize: vertical;
-    }
+    textarea { min-height: 100px; resize: vertical; }
     button {
       border: none;
       border-radius: 999px;
@@ -64,21 +58,10 @@
       align-items: center;
       gap: 0.35rem;
     }
-    button.secondary {
-      background: #374151;
-    }
-    button:disabled {
-      opacity: 0.55;
-      cursor: not-allowed;
-    }
-    .row {
-      display: flex;
-      gap: 0.75rem;
-      flex-wrap: wrap;
-    }
-    .row > div {
-      flex: 1 1 160px;
-    }
+    button.secondary { background: #374151; }
+    button:disabled { opacity: 0.55; cursor: not-allowed; }
+    .row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+    .row > div { flex: 1 1 160px; }
     .player-links {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -92,44 +75,20 @@
       background: #101010;
       font-size: 0.9rem;
     }
-    .player-title {
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-    }
-    .small {
-      font-size: 0.8rem;
-      color: #9ca3af;
-    }
+    .player-title { font-weight: 600; margin-bottom: 0.25rem; }
+    .small { font-size: 0.8rem; color: #9ca3af; }
     .word-display {
       font-size: 1.8rem;
       font-weight: 700;
       text-align: center;
       margin: 1.5rem 0 0.5rem;
     }
-    .tagline {
-      font-size: 0.85rem;
-      color: #9ca3af;
-      text-align: center;
-      margin-bottom: 0.75rem;
-    }
-    .highlight {
-      color: #facc15;
-    }
-    .impostor {
-      color: #f97316;
-      font-size: 2rem;
-    }
-    .center {
-      text-align: center;
-    }
-    a {
-      color: #a5b4fc;
-      word-break: break-all;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    .tagline { font-size: 0.85rem; color: #9ca3af; text-align: center; margin-bottom: 0.75rem; }
+    .highlight { color: #facc15; }
+    .impostor { color: #f97316; font-size: 2rem; }
+    .center { text-align: center; }
+    a { color: #a5b4fc; word-break: break-all; text-decoration: none; }
+    a:hover { text-decoration: underline; }
     .badge {
       font-size: 0.75rem;
       padding: 0.15rem 0.5rem;
@@ -148,16 +107,9 @@
       background: white;
       padding: 0.25rem;
     }
-    ul {
-      margin-top: 0.25rem;
-      margin-bottom: 0.5rem;
-      padding-left: 1.2rem;
-    }
+    ul { margin-top: 0.25rem; margin-bottom: 0.5rem; padding-left: 1.2rem; }
     @media (min-width: 720px) {
-      body {
-        max-width: 840px;
-        margin: 0 auto;
-      }
+      body { max-width: 840px; margin: 0 auto; }
     }
   </style>
 </head>
@@ -168,54 +120,45 @@
     // --- Local fallback word lists ---
     const WORDS = {
       es: [
-        "aeropuerto", "paraguas", "pizza", "guitarra", "montaña",
-        "cine", "médico", "volcán", "café", "bicicleta",
-        "playa", "avión", "fútbol", "nevera", "ordenador",
-        "ventana", "biblioteca", "hotel", "robot", "satélite"
+        "aeropuerto","paraguas","pizza","guitarra","montaña",
+        "cine","médico","volcán","café","bicicleta",
+        "playa","avión","fútbol","nevera","ordenador",
+        "ventana","biblioteca","hotel","robot","satélite"
       ],
       en: [
-        "airport", "umbrella", "pizza", "guitar", "mountain",
-        "cinema", "doctor", "volcano", "coffee", "bicycle",
-        "beach", "airplane", "football", "fridge", "computer",
-        "window", "library", "hotel", "robot", "satellite"
+        "airport","umbrella","pizza","guitar","mountain",
+        "cinema","doctor","volcano","coffee","bicycle",
+        "beach","airplane","football","fridge","computer",
+        "window","library","hotel","robot","satellite"
       ],
       de: [
-        "Flughafen", "Regenschirm", "Pizza", "Gitarre", "Berg",
-        "Kino", "Arzt", "Vulkan", "Kaffee", "Fahrrad",
-        "Strand", "Flugzeug", "Fußball", "Kühlschrank", "Computer",
-        "Fenster", "Bibliothek", "Hotel", "Roboter", "Satellit"
+        "Flughafen","Regenschirm","Pizza","Gitarre","Berg",
+        "Kino","Arzt","Vulkan","Kaffee","Fahrrad",
+        "Strand","Flugzeug","Fußball","Kühlschrank","Computer",
+        "Fenster","Bibliothek","Hotel","Roboter","Satellit"
       ]
     };
 
     function randomLocalWord(lang) {
-      const list = WORDS[lang] || WORDS["es"];
+      const list = WORDS[lang] || WORDS.es;
       return list[Math.floor(Math.random() * list.length)];
     }
 
-    // --- Online word fetch: Random Word API with language support ---
+    // --- Online word fetch (fallback to local list on any error) ---
     async function fetchRandomWordOnline(lang) {
       let apiLang = "";
       if (lang === "es") apiLang = "es";
       else if (lang === "de") apiLang = "de"; // attempt German
-      // default EN if empty
-
       let url = "https://random-word-api.herokuapp.com/word?number=1";
-      if (apiLang) {
-        url += "&lang=" + encodeURIComponent(apiLang);
-      }
+      if (apiLang) url += "&lang=" + encodeURIComponent(apiLang);
 
       try {
         const resp = await fetch(url, { cache: "no-store" });
         if (!resp.ok) throw new Error("HTTP " + resp.status);
         const data = await resp.json();
         let word = "";
-
-        if (Array.isArray(data) && data.length > 0) {
-          word = String(data[0]);
-        } else if (data && typeof data.word === "string") {
-          word = data.word;
-        }
-
+        if (Array.isArray(data) && data.length > 0) word = String(data[0]);
+        else if (data && typeof data.word === "string") word = data.word;
         if (!word) throw new Error("Empty word");
         return word.trim();
       } catch (e) {
@@ -224,16 +167,12 @@
       }
     }
 
-    function randomInt(max) {
-      return Math.floor(Math.random() * max);
-    }
+    function randomInt(max) { return Math.floor(Math.random() * max); }
 
     function createGameId() {
       const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
       let id = "";
-      for (let i = 0; i < 5; i++) {
-        id += chars[Math.floor(Math.random() * chars.length)];
-      }
+      for (let i = 0; i < 5; i++) id += chars[Math.floor(Math.random() * chars.length)];
       return id;
     }
 
@@ -242,20 +181,19 @@
       const json = JSON.stringify(obj);
       return btoa(unescape(encodeURIComponent(json)));
     }
-
     function decodePayload(b64) {
       const json = decodeURIComponent(escape(atob(b64)));
       return JSON.parse(json);
     }
 
-    // Simple i18n helper
+    // i18n helper (aligned with in-app labels)
     function t(lang, es, en, de) {
       if (lang === "es") return es;
       if (lang === "de") return de;
-      return en; // default English
+      return en;
     }
 
-    // Fair impostor counts across rounds (per browser session)
+    // Fair impostor selection across rounds (per tab/session)
     let impostorCounts = null;
 
     function render() {
@@ -272,7 +210,7 @@
             <div class="card">
               <h1>Error</h1>
               <p class="small">
-                Enlace/Link ungültig. Pide al anfitrión / Bitte den Host um einen neuen Code.
+                ${"Invalid link. Ask the host for a new QR / link."}
               </p>
             </div>
           `;
@@ -310,20 +248,13 @@
               "Zeige diesen Bildschirm niemandem."
             )}
           </p>
-          <div class="center small">
-            ${displayName}
-          </div>
+          <div class="center small">${displayName}</div>
 
           <div class="word-display">
             ${
               isImpostor
-                ? `<span class="impostor">${t(
-                    lang,
-                    "ERES EL IMPOSTOR",
-                    "YOU ARE THE IMPOSTOR",
-                    "DU BIST DER IMPOSTOR"
-                  )}</span>`
-                : `<span>${t(lang, "Tu palabra:", "Your word:", "Dein Wort:")}</span><br>
+                ? `<span class="impostor">${t(lang,"ERES EL IMPOSTOR","YOU ARE THE IMPOSTOR","DU BIST DER IMPOSTOR")}</span>`
+                : `<span>${t(lang,"Tu palabra:","Your word:","Dein Wort:")}</span><br>
                    <span class="highlight">${w || "??"}</span>`
             }
           </div>
@@ -333,9 +264,9 @@
             <p class="small">
               ${t(
                 lang,
-                "El anfitrión dirigirá la ronda de pistas y la votación. Los jugadores con palabra deben dar pistas sin decirla directamente. El impostor intentará mezclarse sin conocer la palabra.",
-                "The host will lead the clue round and voting. Players with the word give subtle clues without saying it directly. The impostor will try to blend in without knowing the word.",
-                "Der Host leitet die Hinweisrunde und die Abstimmung. Spieler mit dem Wort geben subtile Hinweise, ohne es direkt zu nennen. Der Impostor versucht mitzuhalten, ohne das Wort zu kennen."
+                "Da una pista corta sobre la palabra. No la digas directamente.",
+                "Give a short clue about the word. Don’t say it directly.",
+                "Gib einen kurzen Hinweis zum Wort. Nenne es nicht direkt."
               )}
             </p>
           </div>
@@ -350,57 +281,56 @@
           <span class="badge">Host</span>
           <h1>Impostor Word Game</h1>
           <p class="tagline">
-            Crea una sesión, define los nombres de los jugadores y genera un código QR
-            para cada uno. N-1 verán la palabra, 1 verá “IMPOSTOR”.
-            Die Wörter können auf Spanisch, Englisch oder Deutsch sein.
+            ${"No installation. Share QR codes and start playing."}
           </p>
         </div>
 
         <div class="card">
-          <h2>Cómo jugar / How to play / Spielanleitung</h2>
-          <h3>Español</h3>
+          <h2>${"Instructions (aligned with UI labels) / Instrucciones / Anleitung"}</h2>
+
+          <h3>🇪🇸 ¿Cómo jugar?</h3>
           <ul>
-            <li>El anfitrión escribe los nombres de todos los jugadores.</li>
-            <li>La app elige una palabra secreta y un impostor.</li>
-            <li>Cada jugador escanea su código QR:
+            <li>El anfitrión escribe los nombres de todos los jugadores en <b>“Nombres / Namen de los jugadores”</b>.</li>
+            <li>La app elige una palabra secreta y un impostor al pulsar <b>“🃏 Crear nueva sesión”</b>.</li>
+            <li>Cada jugador escanea su QR en <b>“Códigos QR para los jugadores”</b>:
               <ul>
-                <li>Jugadores normales ven la palabra.</li>
-                <li>El impostor solo ve que es el impostor, sin palabra.</li>
+                <li>Los jugadores normales ven <b>“Tu palabra:”</b>.</li>
+                <li>El impostor solo ve <b>“ERES EL IMPOSTOR”</b>.</li>
               </ul>
             </li>
             <li>Por turnos, cada jugador da una pista corta sobre la palabra.</li>
-            <li>Tras una o dos rondas de pistas, todos votan quién creen que es el impostor.</li>
-            <li>El anfitrión revela quién era el impostor y la palabra secreta.</li>
+            <li>Después de una o dos rondas, todos votan quién creen que es el impostor.</li>
+            <li>Si el grupo no acierta, el anfitrión pulsa <b>“👀 Revelar impostor y palabra”</b>.</li>
           </ul>
 
-          <h3>English</h3>
+          <h3>🇬🇧 How to play</h3>
           <ul>
-            <li>The host enters all player names.</li>
-            <li>The app chooses a secret word and one impostor.</li>
-            <li>Each player scans their QR code:
+            <li>The host enters all names in <b>“Nombres / Namen de los jugadores”</b>.</li>
+            <li>The app selects a secret word and one impostor when the host clicks <b>“🃏 Crear nueva sesión”</b>.</li>
+            <li>Each player scans their QR under <b>“Códigos QR para los jugadores”</b>:
               <ul>
-                <li>Normal players see the secret word.</li>
-                <li>The impostor only sees they are the impostor, no word.</li>
+                <li>Regular players see <b>“Your word:”</b>.</li>
+                <li>The impostor only sees <b>“YOU ARE THE IMPOSTOR”</b>.</li>
               </ul>
             </li>
-            <li>In turns, each player gives a short clue about the word.</li>
-            <li>After one or two clue rounds, everyone votes who they think is the impostor.</li>
-            <li>The host reveals the impostor and the secret word.</li>
+            <li>Players take turns giving short clues about the word.</li>
+            <li>After one or two clue rounds, everyone votes who they think the impostor is.</li>
+            <li>If the impostor wasn’t discovered, the host clicks <b>“👀 Revelar impostor y palabra”</b>.</li>
           </ul>
 
-          <h3>Deutsch</h3>
+          <h3>🇩🇪 Spielanleitung</h3>
           <ul>
-            <li>Der Host trägt alle Spielernamen ein.</li>
-            <li>Die App wählt ein geheimes Wort und einen Impostor.</li>
-            <li>Jeder Spieler scannt seinen QR-Code:
+            <li>Der Host trägt alle Namen in <b>„Nombres / Namen de los jugadores“</b> ein.</li>
+            <li>Die App wählt ein geheimes Wort und einen Impostor, wenn der Host <b>„🃏 Crear nueva sesión“</b> klickt.</li>
+            <li>Jeder scannt seinen QR unter <b>„Códigos QR para los jugadores“</b>:
               <ul>
-                <li>Normale Spieler sehen das geheime Wort.</li>
-                <li>Der Impostor sieht nur, dass er Impostor ist – ohne Wort.</li>
+                <li>Normale Spieler sehen <b>„Dein Wort:“</b>.</li>
+                <li>Der Impostor sieht nur <b>„DU BIST DER IMPOSTOR“</b>.</li>
               </ul>
             </li>
-            <li>Reihum gibt jeder Spieler einen kurzen Hinweis zum Wort.</li>
-            <li>Nach ein bis zwei Runden Hinweise stimmen alle ab, wer der Impostor ist.</li>
-            <li>Der Host deckt den Impostor und das geheime Wort auf.</li>
+            <li>Nacheinander geben die Spieler kurze Hinweise zum Wort.</li>
+            <li>Nach ein bis zwei Runden wird abgestimmt, wer der Impostor ist.</li>
+            <li>Wenn die Gruppe falsch liegt, klickt der Host <b>„👀 Revelar impostor y palabra“</b>.</li>
           </ul>
         </div>
 
@@ -434,12 +364,8 @@ Carlos
           </div>
 
           <div style="margin-top:1rem;">
-            <button id="btnNewSession">
-              🃏 Crear nueva sesión
-            </button>
-            <button id="btnReveal" class="secondary" disabled>
-              👀 Revelar impostor y palabra
-            </button>
+            <button id="btnNewSession">🃏 Crear nueva sesión</button>
+            <button id="btnReveal" class="secondary" disabled>👀 Revelar impostor y palabra</button>
           </div>
 
           <div id="sessionInfo" class="small" style="margin-top:0.75rem; color:#9ca3af;"></div>
@@ -474,7 +400,8 @@ Carlos
         if (rawNames.length < 3) {
           alert(
             "Introduce al menos 3 nombres de jugadores (uno por línea).\n" +
-            "Bitte mindestens 3 Spielernamen (eine Zeile pro Spieler) eingeben."
+            "Please enter at least 3 player names (one per line).\n" +
+            "Bitte mindestens 3 Spielernamen eingeben (eine Zeile pro Spieler)."
           );
           return;
         }
@@ -483,9 +410,7 @@ Carlos
         const lang = languageSelect.value || "es";
         let word = customWordInput.value.trim();
 
-        if (!word) {
-          word = await fetchRandomWordOnline(lang);
-        }
+        if (!word) word = await fetchRandomWordOnline(lang);
 
         const gameId = createGameId();
 
@@ -496,9 +421,7 @@ Carlos
         const minCount = Math.min(...impostorCounts);
         const candidates = [];
         for (let i = 0; i < nPlayers; i++) {
-          if (impostorCounts[i] === minCount) {
-            candidates.push(i);
-          }
+          if (impostorCounts[i] === minCount) candidates.push(i);
         }
         const impostorIndex = candidates[randomInt(candidates.length)];
         impostorCounts[impostorIndex]++;
@@ -521,15 +444,16 @@ Carlos
 
           const payload = {
             v: 1,
-            w: word,              // word
-            l: lang,              // language
-            p: i,                 // player index
-            r: isImpostor ? "I" : "N", // role
+            w: word,
+            l: lang,
+            p: i,
+            r: isImpostor ? "I" : "N",
             n: playerName
           };
 
           const token = encodePayload(payload);
           const link = `${baseUrl}?t=${encodeURIComponent(token)}`;
+
           const qrUrl =
             "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=" +
             encodeURIComponent(link);
@@ -543,7 +467,7 @@ Carlos
             <div class="small">Escanea / Scannen:</div>
             <img class="qr" src="${qrUrl}" alt="QR para ${playerName}" />
             <div class="small" style="margin-top:0.35rem;">
-              Si el QR falla, abre este enlace / Wenn der QR-Code nicht funktioniert, diesen Link öffnen:<br>
+              Si el QR falla, abre este enlace / If QR fails, open this link / Wenn QR nicht funktioniert, Link öffnen:<br>
               <a href="${link}" target="_blank">${link}</a>
             </div>
           `;
@@ -559,9 +483,8 @@ Carlos
         if (!currentSession) return;
         const name = currentSession.playerNames[currentSession.impostorIndex];
         alert(
-          `El impostor es / Der Impostor ist: ${name} ` +
-          `(jugador/Spieler #${currentSession.impostorIndex + 1})\n` +
-          `Palabra secreta / Geheimes Wort: “${currentSession.word}”`
+          `Impostor: ${name} (Jugador/Player/Spieler #${currentSession.impostorIndex + 1})\n` +
+          `Palabra / Word / Wort: “${currentSession.word}”`
         );
       });
     }

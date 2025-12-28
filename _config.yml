@@ -1,52 +1,33 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: bochinche's blog
 #email: justshiat@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  bochinche is the Venezuelan word for a social gathering, particularly a lively one. 
-  This blog is in Spanish, English and German. The posts are related to current topics I am working on. 
+description: >-
+  bochinche is the Venezuelan word for a social gathering, particularly a lively one.
+  This blog is in Spanish, English and German. The posts are related to current topics I am working on.
 domain: "bochinche.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bochinche.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  bochinche
+baseurl: ""                                # the subpath of your site, e.g. /blog
+url: "https://bochinche.github.io"         # the base hostname & protocol for your site
+github_username: bochinche
 
 # Build settings
-#theme: minima
-remote_theme: jekyll/minima
-#minima:
-#  skin: dark
+theme: minima
+
+# If you later want a dark skin, you can uncomment and adjust this block:
+# minima:
+#   skin: dark
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+header_pages: 
+ - index.md
+ - social-games.md
+
+
+  # jekyll-seo-tag is already pulled in by github-pages, no need to list explicitly
+
+# Exclude from processing (optional – keep commented unless you really want to change it)
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
@@ -58,3 +39,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
