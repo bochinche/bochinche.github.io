@@ -9,11 +9,11 @@ permalink: /social-games/
 This page bundles small, browser-based games you can play with friends, family or colleagues — no installation, just a shared link.
 
 ---
+### 🎭 Links / Enlaces 
 
-## 🎭 Impostor Game / Juego del Impostor / Impostor-Spiel
-[link](/assets/games/impostor.html)
+1. Impostor Game / Juego del Impostor / Impostor-Spiel: [link](/assets/games/impostor.html)
 
 ---
 
-More games can be added here over time.  
+More games will be added here over time.  
 If you have ideas for new formats, note them down as an issue in guthub and will try to implement it. 
