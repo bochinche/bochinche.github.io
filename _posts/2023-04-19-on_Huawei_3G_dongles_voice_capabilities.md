@@ -108,3 +108,8 @@ Then, you come back to the MODEM port console. The important commands are:
 * [Asterisk-dongle-setup](https://github.com/grwlf/asterisk-dongle-setup)
 * [Download Mobile Partner for Windows 10, 8, 7, XP, Vista](https://www.huaweiflashfiles.com/p/download-mobile-partner-dashboard-all.html)
 * [Liberar Módem Huawei E1752 y usarlo con cualquier operador....](https://angelitodiaz.blogspot.com/2012/02/liberar-modem-huawei-e-1752-y-usarlo.html)
+* [Unlocking HUAWEI modems](http://calc.gmss.ru/#)
+* [Unlocking HUAWEI modems 2](https://a-zgsm.com/)
+* [Unlock Huawei v201 Algo - v3 Huawei Unlock Code Calculator](https://huaweiunlockcalculator.com/v201-huawei-unlock-calculator-v3.php)
+* [Installation of Asterisk and FreePBX GUI on Raspberry Pi](https://github.com/playfultechnology/RasPBX)
+* [Firmware Versionen Hi / Non Hi Link E3372s inkl MOD ](https://www.lteforum.at/mobilfunk/firmware-versionen-hi-non-hi-link-e3372s-inkl-mod.2484/seite-10.html#post-43835)
